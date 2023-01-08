@@ -7,6 +7,8 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
+          "changeDetection": "OnPush",
+          "standalone": true,
           "style": "scss"
         }
       },
@@ -99,6 +101,12 @@
           }
         }
       }
+    }
+  },
+  "cli": {
+    "analytics": "6aca4c5d-c375-43a3-b0eb-fe89cd5f49c9",
+    "cache": {
+      "enabled": true
     }
   }
 }
