@@ -3304,6 +3304,18 @@ hdr-histogram-percentiles-obj@^3.0.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/hdr-histogram-percentiles-obj/-/hdr-histogram-percentiles-obj-3.0.0.tgz#9409f4de0c2dda78e61de2d9d78b1e9f3cba283c"
   integrity sha1-lAn03gwt2njmHeLZ14senzy6KDw=
 
+highcharts-angular@^3.1.2:
+  version "3.1.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/highcharts-angular/-/highcharts-angular-3.1.2.tgz#632c1fac1bde42266cb8ac4ef716207c6ae791ca"
+  integrity sha1-YywfrBveQiZsuKxO9xYgfGrnkco=
+  dependencies:
+    tslib "^2.0.0"
+
+highcharts@^10.3.3:
+  version "10.3.3"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/highcharts/-/highcharts-10.3.3.tgz#b8acca24f2d4b1f2f726540734166e59e07b35c4"
+  integrity sha1-uKzKJPLUsfL3JlQHNBZuWeB7NcQ=
+
 hosted-git-info@^5.0.0:
   version "5.2.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/hosted-git-info/-/hosted-git-info-5.2.1.tgz#0ba1c97178ef91f3ab30842ae63d6a272341156f"
@@ -5631,6 +5643,11 @@ tslib@^1.9.0:
   version "1.14.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
+
+tslib@^2.0.0:
+  version "2.5.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/tslib/-/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
+  integrity sha1-Qr/thvV4eutB0DGGbI9AJCng/d8=
 
 type-fest@^0.21.3:
   version "0.21.3"
