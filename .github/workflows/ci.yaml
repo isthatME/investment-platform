@@ -18,12 +18,12 @@ jobs:
       matrix: 
         node-version: [14.20.x, 16.x, 18.x]
     steps: 
+      - uses: actions/checkout@v3
       - name: Checkout code
-        uses: actions/checkout@v3
         with: 
           fetch-depths: 0
-      - name: Use Node.js ${{ matrix.node-version }}
       - uses: actions/setup-node@v3
+      - name: Use Node.js ${{ matrix.node-version }}
         with:
           node-version-file: .node-version
           cache: yarn
