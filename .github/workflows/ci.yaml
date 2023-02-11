@@ -1,0 +1,35 @@
+name: ci
+
+on: 
+  push: 
+    branches:
+      - 'main'
+      - 'feature/**'
+      - 'release/**'
+  pull_request: 
+    branches: 
+      - main
+      - master
+
+jobs: 
+  checks:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: 
+        node-version: [14.20.x, 16.x, 18.x]
+    steps: 
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with: 
+          fetch-depths: 0
+      - name: Use Node.js ${{ matrix.node-version }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+          cache: yarn
+      - name: Install 
+        run: yarn install --frozen-lockfile --non-interactive 
+      - name: Unit test
+        run: yarn test
+      - name: Lint 
+        run: yarn lint        
