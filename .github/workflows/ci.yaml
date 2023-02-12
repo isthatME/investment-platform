@@ -25,6 +25,6 @@ jobs:
       - name: Build
         run: yarn build
       - name: Test
-        run: yarn test
+        run: yarn test --watch=false --browsers=ChromeHeadless
       - name: Lint 
         run: yarn lint        
