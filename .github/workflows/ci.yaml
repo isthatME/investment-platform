@@ -1,0 +1,30 @@
+name: ci
+
+on: 
+  push: 
+    branches:
+      - 'main'
+      - 'feature/**'
+      - 'release/**'
+  pull_request: 
+    branches: 
+      - main
+      - master
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+          cache: yarn
+      - name: Install
+        run: yarn install --frozen-lockfile --non-interactive
+      - name: Build
+        run: yarn build
+      - name: Test
+        run: yarn test --watch=false --browsers=ChromeHeadless
+      - name: Lint 
+        run: yarn lint        

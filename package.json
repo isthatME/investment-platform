@@ -6,7 +6,7 @@
     "dev": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test --browsers ChromeHeadless --code-coverage",
     "lint": "ng lint",
     "prepare": "husky install"
   },
@@ -50,7 +50,7 @@
     "typescript": "~4.8.2"
   },
   "lint-staged": {
-    "**/*.{js, ts, html}" : [
+    "**/*.{js, ts, html}": [
       "yarn eslint",
       "yarn prettier --write"
     ]
