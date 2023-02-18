@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
-
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { AppShellComponent } from './app-shelll/app-shell/app-shell.component';
+export const APP_COMPONENT_IMPORTS = [RouterModule, AppShellComponent];
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  template: `
+    <app-shell>
+      <router-outlet></router-outlet>
+    </app-shell>
+  `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
-  title = 'investment-platform';
 }
