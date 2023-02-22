@@ -1,0 +1,14 @@
+@import '../../token/mixin/flex';
+
+.dark-mode-toggle{
+    @include d-flex-vh;
+    background-color: var(--palette-text-secondary);
+    color: var(--palette-text-primary);
+    width: fit-content;
+    border-radius: var(--theme-borderRadius-circle);
+    height: 3.5rem;
+    width: 3.5rem;
+    > mat-icon {
+        font-size: 1.6rem;
+    }
+}

@@ -1,14 +1,12 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { DarkModeToggleComponent } from 'src/app/ui/component/dark-mode-toggle/dark-mode-toggle.component';
 @Component({
   selector: 'app-shell',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, DarkModeToggleComponent],
   templateUrl: './app-shell.component.html',
   styleUrls: ['./app-shell.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppShellComponent {
-
-}
+export class AppShellComponent {}

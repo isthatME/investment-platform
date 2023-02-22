@@ -2,6 +2,11 @@ body.light {
   --palette-background-default: rgba(255,255,255);
   --palette-primary-main: rgba(130, 87, 229);
   --palette-secondary-main: rgba(122, 140, 240);
+  --palette-text-primary: rgba(201, 201, 201);
+  --palette-text-secondary: rgb(37, 32, 32);
+}
+body.dark {
+  --palette-background-default: rgb(36, 35, 35);
   --palette-text-primary: rgba(18, 18, 20);
   --palette-text-secondary: rgba(201, 201, 201);
 }
