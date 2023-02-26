@@ -1,0 +1,21 @@
+@import '../../token/mixin/flex';
+
+.banner-wrapper {
+    padding: 0.5rem;
+    background-image: linear-gradient(157deg, var(--palette-primary-main) 8%, var(--palette-primary-main) 31%, var(--palette-secondary-main)  79%);
+    @include d-flex-v;
+    .image-wrapper {
+        width: 50%;
+        img {
+            width: 90%;
+            height: 100px;
+        }
+    }
+    article {
+        width: 50%;
+        h1, h2 {
+            font-size: 0.8rem;
+            line-height: 1rem;
+        }
+    }
+}
