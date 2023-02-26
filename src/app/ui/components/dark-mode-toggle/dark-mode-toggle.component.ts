@@ -1,19 +1,13 @@
 import { CommonModule, DOCUMENT } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Inject } from '@angular/core';
-import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, MatIconModule],
+  imports: [CommonModule],
   selector: 'ui-dark-mode-toggle',
   template: `
     <div class="dark-mode-toggle" (click)="toggleTheme()">
-      <mat-icon
-        aria-hidden="false"
-        aria-label="Example home icon"
-        class="material-symbols-outlined"
-        fontIcon="dark_mode"
-      ></mat-icon>
+  
     </div>
   `,
   styleUrls: ['dark-mode-toggle.component.scss'],

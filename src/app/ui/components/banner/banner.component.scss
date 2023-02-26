@@ -1,4 +1,6 @@
 @import '../../token/mixin/flex';
+@import '../../token/variables/fontSize';
+@import '../../token/dark-light-mode';
 
 .banner-wrapper {
     padding: 0.5rem;
@@ -14,8 +16,16 @@
     article {
         width: 50%;
         h1, h2 {
-            font-size: 0.8rem;
             line-height: 1rem;
+            color: var(--palette-text-primary);
+        }
+        h1 {
+            font-weight: 700;
+            line-height: 1.6;
+            font-size: var(--text-md);
+        }
+        h2 {
+            font-size: var(--text-sm);
         }
     }
 }
