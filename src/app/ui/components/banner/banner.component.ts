@@ -9,7 +9,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     <div class="banner-wrapper">
         <article>
             <h1>Calculadora de investimentos</h1>
-            <h2>Calcule quanto seus investimentos irão render. O cálculo é feito utilizando a formula de juros compostos, mas se você levar em considerações outras variáveis, como imposto de renda, inflação, etc..</h2>
+            <h2>Calcule quanto os seus investimentos irão render. O cálculo é feito utilizando a formula de juros compostos.</h2>
         </article>
         <div class="image-wrapper">
         <img src="../../../assets/svg-icons/calculator.svg" alt="calculator-image"/>

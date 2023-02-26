@@ -6,26 +6,32 @@
     padding: 0.5rem;
     background-image: linear-gradient(157deg, var(--palette-primary-main) 8%, var(--palette-primary-main) 31%, var(--palette-secondary-main)  79%);
     @include d-flex-v;
+    border-radius: 0 0 2rem 0;
     .image-wrapper {
-        width: 50%;
+        @include d-flex-e;
+        width: 30%;
         img {
             width: 90%;
-            height: 100px;
+            height: 10vh;
         }
     }
     article {
-        width: 50%;
+        width: 65%;
         h1, h2 {
+            margin: 0;
             line-height: 1rem;
-            color: var(--palette-text-primary);
         }
         h1 {
+            margin-bottom: .8rem;
+            color: var(--palette-text-primary);
             font-weight: 700;
             line-height: 1.6;
-            font-size: var(--text-md);
+            font-size: var(--text-lg);
         }
         h2 {
+            color: var(--palette-text-secondary);
             font-size: var(--text-sm);
+            font-weight: normal;
         }
     }
 }

@@ -5,6 +5,10 @@
   display: inline-flex;
 }
 
+@mixin d-flex-e {
+  display: flex;
+  justify-content: flex-end;
+}
 @mixin d-flex-v {
   display: flex;
   align-items: center;
