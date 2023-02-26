@@ -2,4 +2,8 @@
     background-color: var(--palette-background-default);
     transition: var(--theme-anim-duration-standard);
     height: 100%;
+    margin: 0 .8rem;
+    & > *{
+        margin: 0 1rem;
+    }
 }
