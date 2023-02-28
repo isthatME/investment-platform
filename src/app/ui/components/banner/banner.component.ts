@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `
     <div class="banner-wrapper">
         <article>
-            <h1>Calculadora de investimentos</h1>
+            <h1>Calcule seus investimentos</h1>
             <h2>Calcule quanto os seus investimentos irão render. O cálculo é feito utilizando a formula de juros compostos.</h2>
         </article>
         <div class="image-wrapper">
