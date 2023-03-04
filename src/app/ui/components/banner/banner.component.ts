@@ -9,7 +9,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     <div class="banner-wrapper">
         <article>
             <h1>Calcule seus investimentos</h1>
-            <h2>Calcule quanto os seus investimentos irão render. O cálculo é feito utilizando a formula de juros compostos.</h2>
+            <h2>Maximize seu Potencial de Riqueza: Desbloqueie o Poder dos Juros Compostos com Nossa Ferramenta Avançada de Cálculo de Juros Compostos</h2>
         </article>
         <div class="image-wrapper">
         <img src="../../../assets/svg-icons/calculator.svg" alt="calculator-image"/>
