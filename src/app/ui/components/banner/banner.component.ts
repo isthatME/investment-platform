@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `
     <div class="banner-wrapper">
         <article>
-            <h1>Calcule seus investimentos</h1>
+            <h1>Calculadora de investimentos</h1>
             <h2>Maximize seu Potencial de lucro: Desbloqueie o Poder dos Juros Compostos com Nossa Ferramenta Avançada de Cálculo de Juros Compostos</h2>
         </article>
         <div class="image-wrapper">

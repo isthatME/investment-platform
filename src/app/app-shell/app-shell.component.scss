@@ -1,6 +1,7 @@
 .container {
     background-color: var(--palette-background-default);
     background: linear-gradient(149.36deg, var(--palette-primary-dark) 16.48%, var(--palette-primary-light)  70.85%);
+    padding: 0 2.5rem;
     transition: var(--theme-anim-duration-standard);
     height: 100%;
     & > *{
