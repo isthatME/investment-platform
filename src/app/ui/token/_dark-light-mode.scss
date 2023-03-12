@@ -1,13 +1,17 @@
 body.light {
-  --palette-background-default: rgba(255,255,255);
-  --palette-primary-main: rgba(130, 87, 229);
-  --palette-secondary-main: rgba(122, 140, 240);
-  --palette-text-primary: rgb(255, 255, 255);
-  --palette-text-secondary: rgba(201, 201, 201);
+  --palette-primary-main: rgb(121, 0, 219);
+  --palette-secondary-main: rgb(85, 75, 154);
+  --palette-primary-dark: rgb(5, 4, 19);
+  --palette-primary-light: rgb(27, 25, 52);
+  --palette-text-primary: rgb(243, 245, 252);
+  --palette-text-secondary: rgb(167, 149, 188);
 }
 body.dark {
-  --palette-background-default: rgb(36, 35, 35);
-  --palette-text-primary: rgba(18, 18, 20);
-  --palette-text-secondary: rgba(201, 201, 201);
+  --palette-primary-main: rgb(121, 0, 219);
+  --palette-secondary-main: rgb(85, 75, 154);
+  --palette-primary-dark: rgb(5, 4, 19);
+  --palette-primary-light: rgb(27, 25, 52);
+  --palette-text-primary: rgb(243, 245, 252);
+  --palette-text-secondary: rgb(167, 149, 188);
 }
 
