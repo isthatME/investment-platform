@@ -10,6 +10,14 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@ampproject/remapping@^2.2.0":
+  version "2.2.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@ampproject/remapping/-/@ampproject/remapping-2.2.1.tgz#99e8e11851128b8702cd57c33684f1d0f260b630"
+  integrity sha1-mejhGFESi4cCzVfDNoTx0PJgtjA=
+  dependencies:
+    "@jridgewell/gen-mapping" "^0.3.0"
+    "@jridgewell/trace-mapping" "^0.3.9"
+
 "@angular-devkit/architect@0.1502.0":
   version "0.1502.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/architect/-/@angular-devkit/architect-0.1502.0.tgz"
@@ -18,29 +26,38 @@
     "@angular-devkit/core" "15.2.0"
     rxjs "6.6.7"
 
-"@angular-devkit/build-angular@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-angular/-/@angular-devkit/build-angular-15.2.0.tgz"
-  integrity sha1-KiOrwydKp1WoMZEj/oVryf0IdL4=
+"@angular-devkit/architect@0.1600.0-next.7":
+  version "0.1600.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/architect/-/@angular-devkit/architect-0.1600.0-next.7.tgz#5fc753941ac0db2f012be58503cdb5be14c086e4"
+  integrity sha1-X8dTlBrA2y8BK+WFA821vhTAhuQ=
+  dependencies:
+    "@angular-devkit/core" "16.0.0-next.7"
+    rxjs "7.8.0"
+
+"@angular-devkit/build-angular@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-angular/-/@angular-devkit/build-angular-16.0.0-next.7.tgz#fb3f0cb8cbd4989f9594b391d335bd6c4760133f"
+  integrity sha1-+z8MuMvUmJ+VlLOR0zW9bEdgEz8=
   dependencies:
     "@ampproject/remapping" "2.2.0"
-    "@angular-devkit/architect" "0.1502.0"
-    "@angular-devkit/build-webpack" "0.1502.0"
-    "@angular-devkit/core" "15.2.0"
-    "@babel/core" "7.20.12"
-    "@babel/generator" "7.20.14"
+    "@angular-devkit/architect" "0.1600.0-next.7"
+    "@angular-devkit/build-webpack" "0.1600.0-next.7"
+    "@angular-devkit/core" "16.0.0-next.7"
+    "@babel/core" "7.21.4"
+    "@babel/generator" "7.21.4"
     "@babel/helper-annotate-as-pure" "7.18.6"
     "@babel/helper-split-export-declaration" "7.18.6"
     "@babel/plugin-proposal-async-generator-functions" "7.20.7"
     "@babel/plugin-transform-async-to-generator" "7.20.7"
-    "@babel/plugin-transform-runtime" "7.19.6"
-    "@babel/preset-env" "7.20.2"
-    "@babel/runtime" "7.20.13"
+    "@babel/plugin-transform-runtime" "7.21.4"
+    "@babel/preset-env" "7.21.4"
+    "@babel/runtime" "7.21.0"
     "@babel/template" "7.20.7"
     "@discoveryjs/json-ext" "0.5.7"
-    "@ngtools/webpack" "15.2.0"
+    "@ngtools/webpack" "16.0.0-next.7"
+    "@vitejs/plugin-basic-ssl" "1.0.1"
     ansi-colors "4.1.3"
-    autoprefixer "10.4.13"
+    autoprefixer "10.4.14"
     babel-loader "9.1.2"
     babel-plugin-istanbul "6.1.1"
     browserslist "4.21.5"
@@ -49,7 +66,7 @@
     copy-webpack-plugin "11.0.0"
     critters "0.0.16"
     css-loader "6.7.3"
-    esbuild-wasm "0.17.8"
+    esbuild-wasm "0.17.15"
     glob "8.1.0"
     https-proxy-agent "5.0.1"
     inquirer "8.2.4"
@@ -59,40 +76,41 @@
     less-loader "11.1.0"
     license-webpack-plugin "4.0.2"
     loader-utils "3.2.1"
-    magic-string "0.29.0"
-    mini-css-extract-plugin "2.7.2"
-    open "8.4.1"
+    magic-string "0.30.0"
+    mini-css-extract-plugin "2.7.5"
+    open "8.4.2"
     ora "5.4.1"
     parse5-html-rewriting-stream "7.0.0"
     piscina "3.2.0"
     postcss "8.4.21"
-    postcss-loader "7.0.2"
+    postcss-loader "7.2.3"
     resolve-url-loader "5.0.0"
-    rxjs "6.6.7"
-    sass "1.58.1"
-    sass-loader "13.2.0"
+    rxjs "7.8.0"
+    sass "1.60.0"
+    sass-loader "13.2.2"
     semver "7.3.8"
     source-map-loader "4.0.1"
     source-map-support "0.5.21"
-    terser "5.16.3"
+    terser "5.16.8"
     text-table "0.2.0"
     tree-kill "1.2.2"
     tslib "2.5.0"
-    webpack "5.75.0"
-    webpack-dev-middleware "6.0.1"
-    webpack-dev-server "4.11.1"
+    vite "4.2.1"
+    webpack "5.77.0"
+    webpack-dev-middleware "6.0.2"
+    webpack-dev-server "4.13.2"
     webpack-merge "5.8.0"
     webpack-subresource-integrity "5.1.0"
   optionalDependencies:
-    esbuild "0.17.8"
+    esbuild "0.17.15"
 
-"@angular-devkit/build-webpack@0.1502.0":
-  version "0.1502.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-webpack/-/@angular-devkit/build-webpack-0.1502.0.tgz"
-  integrity sha1-aQs9ESTIbSW6BBNAG3x3m5AsHco=
+"@angular-devkit/build-webpack@0.1600.0-next.7":
+  version "0.1600.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-webpack/-/@angular-devkit/build-webpack-0.1600.0-next.7.tgz#f8233da68ba4c129f64c2180a01c6d1007ecdcd6"
+  integrity sha1-+CM9poukwSn2TCGAoBxtEAfs3NY=
   dependencies:
-    "@angular-devkit/architect" "0.1502.0"
-    rxjs "6.6.7"
+    "@angular-devkit/architect" "0.1600.0-next.7"
+    rxjs "7.8.0"
 
 "@angular-devkit/core@15.2.0":
   version "15.2.0"
@@ -103,6 +121,17 @@
     ajv-formats "2.1.1"
     jsonc-parser "3.2.0"
     rxjs "6.6.7"
+    source-map "0.7.4"
+
+"@angular-devkit/core@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/core/-/@angular-devkit/core-16.0.0-next.7.tgz#37e989bde75f6c833863b06d100c8388594af215"
+  integrity sha1-N+mJvedfbIM4Y7BtEAyDiFlK8hU=
+  dependencies:
+    ajv "8.12.0"
+    ajv-formats "2.1.1"
+    jsonc-parser "3.2.0"
+    rxjs "7.8.0"
     source-map "0.7.4"
 
 "@angular-devkit/schematics@15.2.0":
@@ -173,10 +202,10 @@
     "@angular-eslint/bundled-angular-compiler" "15.2.0"
     "@typescript-eslint/utils" "5.48.1"
 
-"@angular/animations@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/animations/-/@angular/animations-15.2.0.tgz"
-  integrity sha1-/eDLpVangNSoAWWtG5q5Af6EEoU=
+"@angular/animations@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/animations/-/@angular/animations-16.0.0-next.7.tgz#9786d8dac13c26fb193601df4dd331eaa4a180e3"
+  integrity sha1-l4bY2sE8JvsZNgHfTdMx6qShgOM=
   dependencies:
     tslib "^2.3.0"
 
@@ -213,68 +242,66 @@
     symbol-observable "4.0.0"
     yargs "17.6.2"
 
-"@angular/common@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/common/-/@angular/common-15.2.0.tgz"
-  integrity sha1-tpoVgeknTSraztVHsXXs0WN7+BI=
+"@angular/common@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/common/-/@angular/common-16.0.0-next.7.tgz#661f1bd47e27a80ecf89281ce99e3937ef7a9f99"
+  integrity sha1-Zh8b1H4nqA7PiSgc6Z45N+96n5k=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/compiler-cli@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler-cli/-/@angular/compiler-cli-15.2.0.tgz"
-  integrity sha1-eQzmG9QRMhq3+eCos5AXCb6MlUc=
+"@angular/compiler-cli@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler-cli/-/@angular/compiler-cli-16.0.0-next.7.tgz#b99504ede7e4e3620dc5087b83a357ec8ad79aac"
+  integrity sha1-uZUE7efk42INxQh7g6NX7IrXmqw=
   dependencies:
     "@babel/core" "7.19.3"
     "@jridgewell/sourcemap-codec" "^1.4.14"
     chokidar "^3.0.0"
     convert-source-map "^1.5.1"
-    dependency-graph "^0.11.0"
-    magic-string "^0.27.0"
     reflect-metadata "^0.1.2"
     semver "^7.0.0"
     tslib "^2.3.0"
     yargs "^17.2.1"
 
-"@angular/compiler@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler/-/@angular/compiler-15.2.0.tgz"
-  integrity sha1-1UvyHlQsePIcvQXCF+vB8vsCM8E=
+"@angular/compiler@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler/-/@angular/compiler-16.0.0-next.7.tgz#15058e4390defb5db094d64e1a2f9c9587691533"
+  integrity sha1-FQWOQ5De+12wlNZOGi+clYdpFTM=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/core/-/@angular/core-15.2.0.tgz"
-  integrity sha1-n8zl0lgfr4rl0Q1dGqBS/5dpI+w=
+"@angular/core@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/core/-/@angular/core-16.0.0-next.7.tgz#f1fca1309d4194ad8f6b5e4b0c06fc6737fbcd7e"
+  integrity sha1-8fyhMJ1BlK2Pa15LDAb8Zzf7zX4=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/forms@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/forms/-/@angular/forms-15.2.0.tgz"
-  integrity sha1-8q/jmwPnoqc1QAijyN6uA3KOucM=
+"@angular/forms@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/forms/-/@angular/forms-16.0.0-next.7.tgz#4f9ef2e86c60f1319242ceec009d66befc73a290"
+  integrity sha1-T57y6Gxg8TGSQs7sAJ1mvvxzopA=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser-dynamic@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser-dynamic/-/@angular/platform-browser-dynamic-15.2.0.tgz"
-  integrity sha1-zKfQzqncuOv0xzFi8wRiM4ZhcDA=
+"@angular/platform-browser-dynamic@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser-dynamic/-/@angular/platform-browser-dynamic-16.0.0-next.7.tgz#619c48578c0e93f295963a79bc5085d4faa6887c"
+  integrity sha1-YZxIV4wOk/KVljp5vFCF1PqmiHw=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser/-/@angular/platform-browser-15.2.0.tgz"
-  integrity sha1-eH9CdgnoUfx16NR6H6gOX+ASYzw=
+"@angular/platform-browser@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser/-/@angular/platform-browser-16.0.0-next.7.tgz#30c280ebe1629d6e44d2b709bde4de8c46afef0e"
+  integrity sha1-MMKA6+FinW5E0rcJveTejEav7w4=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/router@^15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/router/-/@angular/router-15.2.0.tgz"
-  integrity sha1-jbGebNDy+BDh2AlAHNWJicEIgww=
+"@angular/router@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/router/-/@angular/router-16.0.0-next.7.tgz#085efdcb49d60c986c59ae1a9c501076e5021a9b"
+  integrity sha1-CF79y0nWDJhsWa4anFAQduUCGps=
   dependencies:
     tslib "^2.3.0"
 
@@ -290,10 +317,22 @@
   dependencies:
     "@babel/highlight" "^7.18.6"
 
-"@babel/compat-data@^7.17.7", "@babel/compat-data@^7.20.1", "@babel/compat-data@^7.20.5":
+"@babel/code-frame@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/code-frame/-/@babel/code-frame-7.21.4.tgz#d0fa9e4413aca81f2b23b9442797bda1826edb39"
+  integrity sha1-0PqeRBOsqB8rI7lEJ5e9oYJu2zk=
+  dependencies:
+    "@babel/highlight" "^7.18.6"
+
+"@babel/compat-data@^7.17.7", "@babel/compat-data@^7.20.5":
   version "7.20.10"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/compat-data/-/@babel/compat-data-7.20.10.tgz"
   integrity sha1-nZL6gbh1Qv/1DoSO1YW0ISwdNOw=
+
+"@babel/compat-data@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/compat-data/-/@babel/compat-data-7.21.4.tgz#457ffe647c480dff59c2be092fc3acf71195c87f"
+  integrity sha1-RX/+ZHxIDf9Zwr4JL8Os9xGVyH8=
 
 "@babel/core@7.19.3":
   version "7.19.3"
@@ -316,7 +355,28 @@
     json5 "^2.2.1"
     semver "^6.3.0"
 
-"@babel/core@7.20.12", "@babel/core@^7.12.3":
+"@babel/core@7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/core/-/@babel/core-7.21.4.tgz#c6dc73242507b8e2a27fd13a9c1814f9fa34a659"
+  integrity sha1-xtxzJCUHuOKif9E6nBgU+fo0plk=
+  dependencies:
+    "@ampproject/remapping" "^2.2.0"
+    "@babel/code-frame" "^7.21.4"
+    "@babel/generator" "^7.21.4"
+    "@babel/helper-compilation-targets" "^7.21.4"
+    "@babel/helper-module-transforms" "^7.21.2"
+    "@babel/helpers" "^7.21.0"
+    "@babel/parser" "^7.21.4"
+    "@babel/template" "^7.20.7"
+    "@babel/traverse" "^7.21.4"
+    "@babel/types" "^7.21.4"
+    convert-source-map "^1.7.0"
+    debug "^4.1.0"
+    gensync "^1.0.0-beta.2"
+    json5 "^2.2.2"
+    semver "^6.3.0"
+
+"@babel/core@^7.12.3":
   version "7.20.12"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/core/-/@babel/core-7.20.12.tgz"
   integrity sha1-eTDbV0Q8ZxStIWlT0TVtrA64SW0=
@@ -337,13 +397,14 @@
     json5 "^2.2.2"
     semver "^6.3.0"
 
-"@babel/generator@7.20.14":
-  version "7.20.14"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/generator/-/@babel/generator-7.20.14.tgz"
-  integrity sha1-n6dyyfhqRsasmzIQOUAHErlvZM4=
+"@babel/generator@7.21.4", "@babel/generator@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/generator/-/@babel/generator-7.21.4.tgz#64a94b7448989f421f919d5239ef553b37bb26bc"
+  integrity sha1-ZKlLdEiYn0IfkZ1SOe9VOze7Jrw=
   dependencies:
-    "@babel/types" "^7.20.7"
+    "@babel/types" "^7.21.4"
     "@jridgewell/gen-mapping" "^0.3.2"
+    "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
 
 "@babel/generator@^7.19.3", "@babel/generator@^7.21.1":
@@ -380,7 +441,7 @@
     "@babel/helper-explode-assignable-expression" "^7.18.6"
     "@babel/types" "^7.18.9"
 
-"@babel/helper-compilation-targets@^7.17.7", "@babel/helper-compilation-targets@^7.18.9", "@babel/helper-compilation-targets@^7.19.3", "@babel/helper-compilation-targets@^7.20.0", "@babel/helper-compilation-targets@^7.20.7":
+"@babel/helper-compilation-targets@^7.17.7", "@babel/helper-compilation-targets@^7.18.9", "@babel/helper-compilation-targets@^7.19.3", "@babel/helper-compilation-targets@^7.20.7":
   version "7.20.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-compilation-targets/-/@babel/helper-compilation-targets-7.20.7.tgz"
   integrity sha1-ps0z6TYp9etHOwIarAXfYsTNCbs=
@@ -391,7 +452,18 @@
     lru-cache "^5.1.1"
     semver "^6.3.0"
 
-"@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.20.5", "@babel/helper-create-class-features-plugin@^7.20.7":
+"@babel/helper-compilation-targets@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-compilation-targets/-/@babel/helper-compilation-targets-7.21.4.tgz#770cd1ce0889097ceacb99418ee6934ef0572656"
+  integrity sha1-dwzRzgiJCXzqy5lBjuaTTvBXJlY=
+  dependencies:
+    "@babel/compat-data" "^7.21.4"
+    "@babel/helper-validator-option" "^7.21.0"
+    browserslist "^4.21.3"
+    lru-cache "^5.1.1"
+    semver "^6.3.0"
+
+"@babel/helper-create-class-features-plugin@^7.18.6":
   version "7.20.12"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-create-class-features-plugin/-/@babel/helper-create-class-features-plugin-7.20.12.tgz"
   integrity sha1-Q0m5KOeb4F7S0WQ7ILmbuHxQOBk=
@@ -400,6 +472,20 @@
     "@babel/helper-environment-visitor" "^7.18.9"
     "@babel/helper-function-name" "^7.19.0"
     "@babel/helper-member-expression-to-functions" "^7.20.7"
+    "@babel/helper-optimise-call-expression" "^7.18.6"
+    "@babel/helper-replace-supers" "^7.20.7"
+    "@babel/helper-skip-transparent-expression-wrappers" "^7.20.0"
+    "@babel/helper-split-export-declaration" "^7.18.6"
+
+"@babel/helper-create-class-features-plugin@^7.21.0":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-create-class-features-plugin/-/@babel/helper-create-class-features-plugin-7.21.4.tgz#3a017163dc3c2ba7deb9a7950849a9586ea24c18"
+  integrity sha1-OgFxY9w8K6feuaeVCEmpWG6iTBg=
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.18.6"
+    "@babel/helper-environment-visitor" "^7.18.9"
+    "@babel/helper-function-name" "^7.21.0"
+    "@babel/helper-member-expression-to-functions" "^7.21.0"
     "@babel/helper-optimise-call-expression" "^7.18.6"
     "@babel/helper-replace-supers" "^7.20.7"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.20.0"
@@ -467,12 +553,26 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
+"@babel/helper-member-expression-to-functions@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-member-expression-to-functions/-/@babel/helper-member-expression-to-functions-7.21.0.tgz#319c6a940431a133897148515877d2f3269c3ba5"
+  integrity sha1-MZxqlAQxoTOJcUhRWHfS8yacO6U=
+  dependencies:
+    "@babel/types" "^7.21.0"
+
 "@babel/helper-module-imports@^7.18.6":
   version "7.18.6"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-module-imports/-/@babel/helper-module-imports-7.18.6.tgz"
   integrity sha1-Hj69u9CKrRQ3tCjFAgTbE8Wjym4=
   dependencies:
     "@babel/types" "^7.18.6"
+
+"@babel/helper-module-imports@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-module-imports/-/@babel/helper-module-imports-7.21.4.tgz#ac88b2f76093637489e718a90cec6cf8a9b029af"
+  integrity sha1-rIiy92CTY3SJ5xipDOxs+KmwKa8=
+  dependencies:
+    "@babel/types" "^7.21.4"
 
 "@babel/helper-module-transforms@^7.18.6", "@babel/helper-module-transforms@^7.20.11":
   version "7.20.11"
@@ -488,9 +588,9 @@
     "@babel/traverse" "^7.20.10"
     "@babel/types" "^7.20.7"
 
-"@babel/helper-module-transforms@^7.19.0":
+"@babel/helper-module-transforms@^7.19.0", "@babel/helper-module-transforms@^7.21.2":
   version "7.21.2"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-module-transforms/-/@babel/helper-module-transforms-7.21.2.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-module-transforms/-/@babel/helper-module-transforms-7.21.2.tgz#160caafa4978ac8c00ac66636cb0fa37b024e2d2"
   integrity sha1-Fgyq+kl4rIwArGZjbLD6N7Ak4tI=
   dependencies:
     "@babel/helper-environment-visitor" "^7.18.9"
@@ -572,6 +672,11 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-validator-option/-/@babel/helper-validator-option-7.18.6.tgz"
   integrity sha1-vw0rWlCbHzNgmeT/NuGmOqXbTbg=
 
+"@babel/helper-validator-option@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-validator-option/-/@babel/helper-validator-option-7.21.0.tgz#8224c7e13ace4bafdc4004da2cf064ef42673180"
+  integrity sha1-giTH4TrOS6/cQATaLPBk70JnMYA=
+
 "@babel/helper-wrap-function@^7.18.9":
   version "7.20.5"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helper-wrap-function/-/@babel/helper-wrap-function-7.20.5.tgz"
@@ -582,9 +687,9 @@
     "@babel/traverse" "^7.20.5"
     "@babel/types" "^7.20.5"
 
-"@babel/helpers@^7.19.0":
+"@babel/helpers@^7.19.0", "@babel/helpers@^7.21.0":
   version "7.21.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helpers/-/@babel/helpers-7.21.0.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/helpers/-/@babel/helpers-7.21.0.tgz#9dd184fb5599862037917cdc9eecb84577dc4e7e"
   integrity sha1-ndGE+1WZhiA3kXzcnuy4RXfcTn4=
   dependencies:
     "@babel/template" "^7.20.7"
@@ -619,6 +724,11 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/parser/-/@babel/parser-7.21.2.tgz"
   integrity sha1-2sr638bXZUwwUaZtb+VbbLLyoLM=
 
+"@babel/parser@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/parser/-/@babel/parser-7.21.4.tgz#94003fdfc520bbe2875d4ae557b43ddb6d880f17"
+  integrity sha1-lAA/38Ugu+KHXUrlV7Q9222IDxc=
+
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.18.6":
   version "7.18.6"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.18.6.tgz"
@@ -626,16 +736,16 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.18.9":
+"@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.20.7":
   version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/-/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.20.7.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/-/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.20.7.tgz#d9c85589258539a22a901033853101a6198d4ef1"
   integrity sha1-2chViSWFOaIqkBAzhTEBphmNTvE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.20.0"
     "@babel/plugin-proposal-optional-chaining" "^7.20.7"
 
-"@babel/plugin-proposal-async-generator-functions@7.20.7", "@babel/plugin-proposal-async-generator-functions@^7.20.1":
+"@babel/plugin-proposal-async-generator-functions@7.20.7", "@babel/plugin-proposal-async-generator-functions@^7.20.7":
   version "7.20.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-async-generator-functions/-/@babel/plugin-proposal-async-generator-functions-7.20.7.tgz"
   integrity sha1-v7cnbS1XPLZ7o3mYSiM04mK6UyY=
@@ -653,12 +763,12 @@
     "@babel/helper-create-class-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-proposal-class-static-block@^7.18.6":
-  version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-class-static-block/-/@babel/plugin-proposal-class-static-block-7.20.7.tgz"
-  integrity sha1-klkukCmxOxW+D3zmp67cKHnKRac=
+"@babel/plugin-proposal-class-static-block@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-class-static-block/-/@babel/plugin-proposal-class-static-block-7.21.0.tgz#77bdd66fb7b605f3a61302d224bdfacf5547977d"
+  integrity sha1-d73Wb7e2BfOmEwLSJL36z1VHl30=
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.20.7"
+    "@babel/helper-create-class-features-plugin" "^7.21.0"
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/plugin-syntax-class-static-block" "^7.14.5"
 
@@ -686,9 +796,9 @@
     "@babel/helper-plugin-utils" "^7.18.6"
     "@babel/plugin-syntax-json-strings" "^7.8.3"
 
-"@babel/plugin-proposal-logical-assignment-operators@^7.18.9":
+"@babel/plugin-proposal-logical-assignment-operators@^7.20.7":
   version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-logical-assignment-operators/-/@babel/plugin-proposal-logical-assignment-operators-7.20.7.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-logical-assignment-operators/-/@babel/plugin-proposal-logical-assignment-operators-7.20.7.tgz#dfbcaa8f7b4d37b51e8bfb46d94a5aea2bb89d83"
   integrity sha1-37yqj3tNN7Uei/tG2Upa6iu4nYM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -710,9 +820,9 @@
     "@babel/helper-plugin-utils" "^7.18.6"
     "@babel/plugin-syntax-numeric-separator" "^7.10.4"
 
-"@babel/plugin-proposal-object-rest-spread@^7.20.2":
+"@babel/plugin-proposal-object-rest-spread@^7.20.7":
   version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-object-rest-spread/-/@babel/plugin-proposal-object-rest-spread-7.20.7.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-object-rest-spread/-/@babel/plugin-proposal-object-rest-spread-7.20.7.tgz#aa662940ef425779c75534a5c41e9d936edc390a"
   integrity sha1-qmYpQO9CV3nHVTSlxB6dk27cOQo=
   dependencies:
     "@babel/compat-data" "^7.20.5"
@@ -729,10 +839,19 @@
     "@babel/helper-plugin-utils" "^7.18.6"
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
 
-"@babel/plugin-proposal-optional-chaining@^7.18.9", "@babel/plugin-proposal-optional-chaining@^7.20.7":
+"@babel/plugin-proposal-optional-chaining@^7.20.7":
   version "7.20.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-optional-chaining/-/@babel/plugin-proposal-optional-chaining-7.20.7.tgz"
   integrity sha1-SfKzclGasxcozBQRW7CZixW/2lU=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.20.2"
+    "@babel/helper-skip-transparent-expression-wrappers" "^7.20.0"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
+
+"@babel/plugin-proposal-optional-chaining@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-optional-chaining/-/@babel/plugin-proposal-optional-chaining-7.21.0.tgz#886f5c8978deb7d30f678b2e24346b287234d3ea"
+  integrity sha1-iG9ciXjet9MPZ4suJDRrKHI00+o=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.20.0"
@@ -746,13 +865,13 @@
     "@babel/helper-create-class-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-proposal-private-property-in-object@^7.18.6":
-  version "7.20.5"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-private-property-in-object/-/@babel/plugin-proposal-private-property-in-object-7.20.5.tgz"
-  integrity sha1-MJx2aPImPxxxGqOZtammKR7vYTU=
+"@babel/plugin-proposal-private-property-in-object@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-proposal-private-property-in-object/-/@babel/plugin-proposal-private-property-in-object-7.21.0.tgz#19496bd9883dd83c23c7d7fc45dcd9ad02dfa1dc"
+  integrity sha1-GUlr2Yg92Dwjx9f8RdzZrQLfodw=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.18.6"
-    "@babel/helper-create-class-features-plugin" "^7.20.5"
+    "@babel/helper-create-class-features-plugin" "^7.21.0"
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
 
@@ -869,14 +988,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-arrow-functions@^7.18.6":
+"@babel/plugin-transform-arrow-functions@^7.20.7":
   version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-arrow-functions/-/@babel/plugin-transform-arrow-functions-7.20.7.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-arrow-functions/-/@babel/plugin-transform-arrow-functions-7.20.7.tgz#bea332b0e8b2dab3dafe55a163d8227531ab0551"
   integrity sha1-vqMysOiy2rPa/lWhY9gidTGrBVE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
-"@babel/plugin-transform-async-to-generator@7.20.7", "@babel/plugin-transform-async-to-generator@^7.18.6":
+"@babel/plugin-transform-async-to-generator@7.20.7", "@babel/plugin-transform-async-to-generator@^7.20.7":
   version "7.20.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-async-to-generator/-/@babel/plugin-transform-async-to-generator-7.20.7.tgz"
   integrity sha1-3+4YYjyMsx3reWqjyoTdqc6pQ1Q=
@@ -892,40 +1011,40 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-block-scoping@^7.20.2":
-  version "7.20.11"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-block-scoping/-/@babel/plugin-transform-block-scoping-7.20.11.tgz"
-  integrity sha1-n1o0JL0RKj8y/gz5Nk+7FVz/Jio=
+"@babel/plugin-transform-block-scoping@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-block-scoping/-/@babel/plugin-transform-block-scoping-7.21.0.tgz#e737b91037e5186ee16b76e7ae093358a5634f02"
+  integrity sha1-5ze5EDflGG7ha3bnrgkzWKVjTwI=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
-"@babel/plugin-transform-classes@^7.20.2":
-  version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-classes/-/@babel/plugin-transform-classes-7.20.7.tgz"
-  integrity sha1-9DghbwlPa7Mdwmbr+rj/Ba7K0HM=
+"@babel/plugin-transform-classes@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-classes/-/@babel/plugin-transform-classes-7.21.0.tgz#f469d0b07a4c5a7dbb21afad9e27e57b47031665"
+  integrity sha1-9GnQsHpMWn27Ia+tnifle0cDFmU=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.18.6"
     "@babel/helper-compilation-targets" "^7.20.7"
     "@babel/helper-environment-visitor" "^7.18.9"
-    "@babel/helper-function-name" "^7.19.0"
+    "@babel/helper-function-name" "^7.21.0"
     "@babel/helper-optimise-call-expression" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/helper-replace-supers" "^7.20.7"
     "@babel/helper-split-export-declaration" "^7.18.6"
     globals "^11.1.0"
 
-"@babel/plugin-transform-computed-properties@^7.18.9":
+"@babel/plugin-transform-computed-properties@^7.20.7":
   version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-computed-properties/-/@babel/plugin-transform-computed-properties-7.20.7.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-computed-properties/-/@babel/plugin-transform-computed-properties-7.20.7.tgz#704cc2fd155d1c996551db8276d55b9d46e4d0aa"
   integrity sha1-cEzC/RVdHJllUduCdtVbnUbk0Ko=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/template" "^7.20.7"
 
-"@babel/plugin-transform-destructuring@^7.20.2":
-  version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-destructuring/-/@babel/plugin-transform-destructuring-7.20.7.tgz"
-  integrity sha1-i9pXj3FiDH3nyTr1kBVLozFBVFQ=
+"@babel/plugin-transform-destructuring@^7.21.3":
+  version "7.21.3"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-destructuring/-/@babel/plugin-transform-destructuring-7.21.3.tgz#73b46d0fd11cd6ef57dea8a381b1215f4959d401"
+  integrity sha1-c7RtD9Ec1u9X3qijgbEhX0lZ1AE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
@@ -952,12 +1071,12 @@
     "@babel/helper-builder-binary-assignment-operator-visitor" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-for-of@^7.18.8":
-  version "7.18.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-for-of/-/@babel/plugin-transform-for-of-7.18.8.tgz"
-  integrity sha1-bvilCyROtqC9utDHxhh35OMAl8E=
+"@babel/plugin-transform-for-of@^7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-for-of/-/@babel/plugin-transform-for-of-7.21.0.tgz#964108c9988de1a60b4be2354a7d7e245f36e86e"
+  integrity sha1-lkEIyZiN4aYLS+I1Sn1+JF826G4=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.18.6"
+    "@babel/helper-plugin-utils" "^7.20.2"
 
 "@babel/plugin-transform-function-name@^7.18.9":
   version "7.18.9"
@@ -982,26 +1101,26 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-modules-amd@^7.19.6":
+"@babel/plugin-transform-modules-amd@^7.20.11":
   version "7.20.11"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-modules-amd/-/@babel/plugin-transform-modules-amd-7.20.11.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-modules-amd/-/@babel/plugin-transform-modules-amd-7.20.11.tgz#3daccca8e4cc309f03c3a0c4b41dc4b26f55214a"
   integrity sha1-PazMqOTMMJ8Dw6DEtB3Esm9VIUo=
   dependencies:
     "@babel/helper-module-transforms" "^7.20.11"
     "@babel/helper-plugin-utils" "^7.20.2"
 
-"@babel/plugin-transform-modules-commonjs@^7.19.6":
-  version "7.20.11"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-modules-commonjs/-/@babel/plugin-transform-modules-commonjs-7.20.11.tgz"
-  integrity sha1-jLIwEIab92af1LMJhZi2sr5txgc=
+"@babel/plugin-transform-modules-commonjs@^7.21.2":
+  version "7.21.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-modules-commonjs/-/@babel/plugin-transform-modules-commonjs-7.21.2.tgz#6ff5070e71e3192ef2b7e39820a06fb78e3058e7"
+  integrity sha1-b/UHDnHjGS7yt+OYIKBvt44wWOc=
   dependencies:
-    "@babel/helper-module-transforms" "^7.20.11"
+    "@babel/helper-module-transforms" "^7.21.2"
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/helper-simple-access" "^7.20.2"
 
-"@babel/plugin-transform-modules-systemjs@^7.19.6":
+"@babel/plugin-transform-modules-systemjs@^7.20.11":
   version "7.20.11"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-modules-systemjs/-/@babel/plugin-transform-modules-systemjs-7.20.11.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-modules-systemjs/-/@babel/plugin-transform-modules-systemjs-7.20.11.tgz#467ec6bba6b6a50634eea61c9c232654d8a4696e"
   integrity sha1-Rn7Gu6a2pQY07qYcnCMmVNikaW4=
   dependencies:
     "@babel/helper-hoist-variables" "^7.18.6"
@@ -1017,9 +1136,9 @@
     "@babel/helper-module-transforms" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-named-capturing-groups-regex@^7.19.1":
+"@babel/plugin-transform-named-capturing-groups-regex@^7.20.5":
   version "7.20.5"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-named-capturing-groups-regex/-/@babel/plugin-transform-named-capturing-groups-regex-7.20.5.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-named-capturing-groups-regex/-/@babel/plugin-transform-named-capturing-groups-regex-7.20.5.tgz#626298dd62ea51d452c3be58b285d23195ba69a8"
   integrity sha1-YmKY3WLqUdRSw75YsoXSMZW6aag=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.20.5"
@@ -1040,10 +1159,17 @@
     "@babel/helper-plugin-utils" "^7.18.6"
     "@babel/helper-replace-supers" "^7.18.6"
 
-"@babel/plugin-transform-parameters@^7.20.1", "@babel/plugin-transform-parameters@^7.20.7":
+"@babel/plugin-transform-parameters@^7.20.7":
   version "7.20.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-parameters/-/@babel/plugin-transform-parameters-7.20.7.tgz"
   integrity sha1-DuNJ6dG8lueOOzenr0I6QHinCD8=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.20.2"
+
+"@babel/plugin-transform-parameters@^7.21.3":
+  version "7.21.3"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-parameters/-/@babel/plugin-transform-parameters-7.21.3.tgz#18fc4e797cf6d6d972cb8c411dbe8a809fa157db"
+  integrity sha1-GPxOeXz21tlyy4xBHb6KgJ+hV9s=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
@@ -1054,9 +1180,9 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-regenerator@^7.18.6":
+"@babel/plugin-transform-regenerator@^7.20.5":
   version "7.20.5"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-regenerator/-/@babel/plugin-transform-regenerator-7.20.5.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-regenerator/-/@babel/plugin-transform-regenerator-7.20.5.tgz#57cda588c7ffb7f4f8483cc83bdcea02a907f04d"
   integrity sha1-V82liMf/t/T4SDzIO9zqAqkH8E0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -1069,13 +1195,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-runtime@7.19.6":
-  version "7.19.6"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-runtime/-/@babel/plugin-transform-runtime-7.19.6.tgz"
-  integrity sha1-nSqdv04SZE1vRuXnW/vwK11ukZQ=
+"@babel/plugin-transform-runtime@7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-runtime/-/@babel/plugin-transform-runtime-7.21.4.tgz#2e1da21ca597a7d01fc96b699b21d8d2023191aa"
+  integrity sha1-Lh2iHKWXp9AfyWtpmyHY0gIxkao=
   dependencies:
-    "@babel/helper-module-imports" "^7.18.6"
-    "@babel/helper-plugin-utils" "^7.19.0"
+    "@babel/helper-module-imports" "^7.21.4"
+    "@babel/helper-plugin-utils" "^7.20.2"
     babel-plugin-polyfill-corejs2 "^0.3.3"
     babel-plugin-polyfill-corejs3 "^0.6.0"
     babel-plugin-polyfill-regenerator "^0.4.1"
@@ -1088,9 +1214,9 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-spread@^7.19.0":
+"@babel/plugin-transform-spread@^7.20.7":
   version "7.20.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-spread/-/@babel/plugin-transform-spread-7.20.7.tgz"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/plugin-transform-spread/-/@babel/plugin-transform-spread-7.20.7.tgz#c2d83e0b99d3bf83e07b11995ee24bf7ca09401e"
   integrity sha1-wtg+C5nTv4PgexGZXuJL98oJQB4=
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -1132,31 +1258,31 @@
     "@babel/helper-create-regexp-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/preset-env@7.20.2":
-  version "7.20.2"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/preset-env/-/@babel/preset-env-7.20.2.tgz"
-  integrity sha1-mxZCqke7n0Oob5YwAReA2rf4ZQY=
+"@babel/preset-env@7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/preset-env/-/@babel/preset-env-7.21.4.tgz#a952482e634a8dd8271a3fe5459a16eb10739c58"
+  integrity sha1-qVJILmNKjdgnGj/lRZoW6xBznFg=
   dependencies:
-    "@babel/compat-data" "^7.20.1"
-    "@babel/helper-compilation-targets" "^7.20.0"
+    "@babel/compat-data" "^7.21.4"
+    "@babel/helper-compilation-targets" "^7.21.4"
     "@babel/helper-plugin-utils" "^7.20.2"
-    "@babel/helper-validator-option" "^7.18.6"
+    "@babel/helper-validator-option" "^7.21.0"
     "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression" "^7.18.6"
-    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.18.9"
-    "@babel/plugin-proposal-async-generator-functions" "^7.20.1"
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.20.7"
+    "@babel/plugin-proposal-async-generator-functions" "^7.20.7"
     "@babel/plugin-proposal-class-properties" "^7.18.6"
-    "@babel/plugin-proposal-class-static-block" "^7.18.6"
+    "@babel/plugin-proposal-class-static-block" "^7.21.0"
     "@babel/plugin-proposal-dynamic-import" "^7.18.6"
     "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
     "@babel/plugin-proposal-json-strings" "^7.18.6"
-    "@babel/plugin-proposal-logical-assignment-operators" "^7.18.9"
+    "@babel/plugin-proposal-logical-assignment-operators" "^7.20.7"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.18.6"
     "@babel/plugin-proposal-numeric-separator" "^7.18.6"
-    "@babel/plugin-proposal-object-rest-spread" "^7.20.2"
+    "@babel/plugin-proposal-object-rest-spread" "^7.20.7"
     "@babel/plugin-proposal-optional-catch-binding" "^7.18.6"
-    "@babel/plugin-proposal-optional-chaining" "^7.18.9"
+    "@babel/plugin-proposal-optional-chaining" "^7.21.0"
     "@babel/plugin-proposal-private-methods" "^7.18.6"
-    "@babel/plugin-proposal-private-property-in-object" "^7.18.6"
+    "@babel/plugin-proposal-private-property-in-object" "^7.21.0"
     "@babel/plugin-proposal-unicode-property-regex" "^7.18.6"
     "@babel/plugin-syntax-async-generators" "^7.8.4"
     "@babel/plugin-syntax-class-properties" "^7.12.13"
@@ -1173,40 +1299,40 @@
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
     "@babel/plugin-syntax-top-level-await" "^7.14.5"
-    "@babel/plugin-transform-arrow-functions" "^7.18.6"
-    "@babel/plugin-transform-async-to-generator" "^7.18.6"
+    "@babel/plugin-transform-arrow-functions" "^7.20.7"
+    "@babel/plugin-transform-async-to-generator" "^7.20.7"
     "@babel/plugin-transform-block-scoped-functions" "^7.18.6"
-    "@babel/plugin-transform-block-scoping" "^7.20.2"
-    "@babel/plugin-transform-classes" "^7.20.2"
-    "@babel/plugin-transform-computed-properties" "^7.18.9"
-    "@babel/plugin-transform-destructuring" "^7.20.2"
+    "@babel/plugin-transform-block-scoping" "^7.21.0"
+    "@babel/plugin-transform-classes" "^7.21.0"
+    "@babel/plugin-transform-computed-properties" "^7.20.7"
+    "@babel/plugin-transform-destructuring" "^7.21.3"
     "@babel/plugin-transform-dotall-regex" "^7.18.6"
     "@babel/plugin-transform-duplicate-keys" "^7.18.9"
     "@babel/plugin-transform-exponentiation-operator" "^7.18.6"
-    "@babel/plugin-transform-for-of" "^7.18.8"
+    "@babel/plugin-transform-for-of" "^7.21.0"
     "@babel/plugin-transform-function-name" "^7.18.9"
     "@babel/plugin-transform-literals" "^7.18.9"
     "@babel/plugin-transform-member-expression-literals" "^7.18.6"
-    "@babel/plugin-transform-modules-amd" "^7.19.6"
-    "@babel/plugin-transform-modules-commonjs" "^7.19.6"
-    "@babel/plugin-transform-modules-systemjs" "^7.19.6"
+    "@babel/plugin-transform-modules-amd" "^7.20.11"
+    "@babel/plugin-transform-modules-commonjs" "^7.21.2"
+    "@babel/plugin-transform-modules-systemjs" "^7.20.11"
     "@babel/plugin-transform-modules-umd" "^7.18.6"
-    "@babel/plugin-transform-named-capturing-groups-regex" "^7.19.1"
+    "@babel/plugin-transform-named-capturing-groups-regex" "^7.20.5"
     "@babel/plugin-transform-new-target" "^7.18.6"
     "@babel/plugin-transform-object-super" "^7.18.6"
-    "@babel/plugin-transform-parameters" "^7.20.1"
+    "@babel/plugin-transform-parameters" "^7.21.3"
     "@babel/plugin-transform-property-literals" "^7.18.6"
-    "@babel/plugin-transform-regenerator" "^7.18.6"
+    "@babel/plugin-transform-regenerator" "^7.20.5"
     "@babel/plugin-transform-reserved-words" "^7.18.6"
     "@babel/plugin-transform-shorthand-properties" "^7.18.6"
-    "@babel/plugin-transform-spread" "^7.19.0"
+    "@babel/plugin-transform-spread" "^7.20.7"
     "@babel/plugin-transform-sticky-regex" "^7.18.6"
     "@babel/plugin-transform-template-literals" "^7.18.9"
     "@babel/plugin-transform-typeof-symbol" "^7.18.9"
     "@babel/plugin-transform-unicode-escapes" "^7.18.10"
     "@babel/plugin-transform-unicode-regex" "^7.18.6"
     "@babel/preset-modules" "^0.1.5"
-    "@babel/types" "^7.20.2"
+    "@babel/types" "^7.21.4"
     babel-plugin-polyfill-corejs2 "^0.3.3"
     babel-plugin-polyfill-corejs3 "^0.6.0"
     babel-plugin-polyfill-regenerator "^0.4.1"
@@ -1224,10 +1350,10 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@7.20.13":
-  version "7.20.13"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/runtime/-/@babel/runtime-7.20.13.tgz"
-  integrity sha1-cFWrinz/K49gWL9q5F/4StKt7Us=
+"@babel/runtime@7.21.0":
+  version "7.21.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/runtime/-/@babel/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
+  integrity sha1-W1XJ05Tl/PMEkJqLAMB9whe1ZnM=
   dependencies:
     regenerator-runtime "^0.13.11"
 
@@ -1279,6 +1405,22 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
+"@babel/traverse@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/traverse/-/@babel/traverse-7.21.4.tgz#a836aca7b116634e97a6ed99976236b3282c9d36"
+  integrity sha1-qDasp7EWY06Xpu2Zl2I2sygsnTY=
+  dependencies:
+    "@babel/code-frame" "^7.21.4"
+    "@babel/generator" "^7.21.4"
+    "@babel/helper-environment-visitor" "^7.18.9"
+    "@babel/helper-function-name" "^7.21.0"
+    "@babel/helper-hoist-variables" "^7.18.6"
+    "@babel/helper-split-export-declaration" "^7.18.6"
+    "@babel/parser" "^7.21.4"
+    "@babel/types" "^7.21.4"
+    debug "^4.1.0"
+    globals "^11.1.0"
+
 "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.19.0", "@babel/types@^7.20.0", "@babel/types@^7.20.2", "@babel/types@^7.20.5", "@babel/types@^7.20.7", "@babel/types@^7.4.4":
   version "7.20.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/types/-/@babel/types-7.20.7.tgz"
@@ -1297,6 +1439,15 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@babel/types@^7.21.4":
+  version "7.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@babel/types/-/@babel/types-7.21.4.tgz#2d5d6bb7908699b3b416409ffd3b5daa25b030d4"
+  integrity sha1-LV1rt5CGmbO0FkCf/TtdqiWwMNQ=
+  dependencies:
+    "@babel/helper-string-parser" "^7.19.4"
+    "@babel/helper-validator-identifier" "^7.19.1"
+    to-fast-properties "^2.0.0"
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@colors/colors/-/@colors/colors-1.5.0.tgz"
@@ -1307,115 +1458,115 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@discoveryjs/json-ext/-/@discoveryjs/json-ext-0.5.7.tgz"
   integrity sha1-HVcr+74Ut3BOC6Dzm3SBW4SHDXA=
 
-"@esbuild/android-arm64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm64/-/@esbuild/android-arm64-0.17.8.tgz#b3d5b65a3b2e073a6c7ee36b1f3c30c8f000315b"
-  integrity sha1-s9W2WjsuBzpsfuNrHzwwyPAAMVs=
+"@esbuild/android-arm64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm64/-/@esbuild/android-arm64-0.17.15.tgz#893ad71f3920ccb919e1757c387756a9bca2ef42"
+  integrity sha1-iTrXHzkgzLkZ4XV8OHdWqbyi70I=
 
-"@esbuild/android-arm@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm/-/@esbuild/android-arm-0.17.8.tgz#c41e496af541e175369d48164d0cf01a5f656cf6"
-  integrity sha1-xB5JavVB4XU2nUgWTQzwGl9lbPY=
+"@esbuild/android-arm@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm/-/@esbuild/android-arm-0.17.15.tgz#143e0d4e4c08c786ea410b9a7739779a9a1315d8"
+  integrity sha1-FD4NTkwIx4bqQQuadzl3mpoTFdg=
 
-"@esbuild/android-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-x64/-/@esbuild/android-x64-0.17.8.tgz#080fa67c29be77f5a3ca5ee4cc78d5bf927e3a3b"
-  integrity sha1-CA+mfCm+d/Wjyl7kzHjVv5J+Ojs=
+"@esbuild/android-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-x64/-/@esbuild/android-x64-0.17.15.tgz#d2d12a7676b2589864281b2274355200916540bc"
+  integrity sha1-0tEqdnayWJhkKBsidDVSAJFlQLw=
 
-"@esbuild/darwin-arm64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-arm64/-/@esbuild/darwin-arm64-0.17.8.tgz"
-  integrity sha1-BTYiv5qC9D1cB1t4GOAmGPe0o5c=
+"@esbuild/darwin-arm64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-arm64/-/@esbuild/darwin-arm64-0.17.15.tgz#2e88e79f1d327a2a7d9d06397e5232eb0a473d61"
+  integrity sha1-Lojnnx0yeip9nQY5flIy6wpHPWE=
 
-"@esbuild/darwin-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-x64/-/@esbuild/darwin-x64-0.17.8.tgz#8a1aadb358d537d8efad817bb1a5bff91b84734b"
-  integrity sha1-ihqts1jVN9jvrYF7saW/+RuEc0s=
+"@esbuild/darwin-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-x64/-/@esbuild/darwin-x64-0.17.15.tgz#9384e64c0be91388c57be6d3a5eaf1c32a99c91d"
+  integrity sha1-k4TmTAvpE4jFe+bTperxwyqZyR0=
 
-"@esbuild/freebsd-arm64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-arm64/-/@esbuild/freebsd-arm64-0.17.8.tgz#e6738d0081ba0721a5c6c674e84c6e7fcea61989"
-  integrity sha1-5nONAIG6ByGlxsZ06Exuf86mGYk=
+"@esbuild/freebsd-arm64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-arm64/-/@esbuild/freebsd-arm64-0.17.15.tgz#2ad5a35bc52ebd9ca6b845dbc59ba39647a93c1a"
+  integrity sha1-KtWjW8UuvZymuEXbxZujlkepPBo=
 
-"@esbuild/freebsd-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-x64/-/@esbuild/freebsd-x64-0.17.8.tgz#1855e562f2b730f4483f6e94086e9e2597feb4c3"
-  integrity sha1-GFXlYvK3MPRIP26UCG6eJZf+tMM=
+"@esbuild/freebsd-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-x64/-/@esbuild/freebsd-x64-0.17.15.tgz#b513a48446f96c75fda5bef470e64d342d4379cd"
+  integrity sha1-tROkhEb5bHX9pb70cOZNNC1Dec0=
 
-"@esbuild/linux-arm64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm64/-/@esbuild/linux-arm64-0.17.8.tgz#481da38952721a3fdb77c17a36ceaacc4270b5c5"
-  integrity sha1-SB2jiVJyGj/bd8F6Ns6qzEJwtcU=
+"@esbuild/linux-arm64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm64/-/@esbuild/linux-arm64-0.17.15.tgz#9697b168175bfd41fa9cc4a72dd0d48f24715f31"
+  integrity sha1-lpexaBdb/UH6nMSnLdDUjyRxXzE=
 
-"@esbuild/linux-arm@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm/-/@esbuild/linux-arm-0.17.8.tgz#18127072b270bb6321c6d11be20bfd30e0d6ad17"
-  integrity sha1-GBJwcrJwu2MhxtEb4gv9MODWrRc=
+"@esbuild/linux-arm@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm/-/@esbuild/linux-arm-0.17.15.tgz#5b22062c54f48cd92fab9ffd993732a52db70cd3"
+  integrity sha1-WyIGLFT0jNkvq5/9mTcypS23DNM=
 
-"@esbuild/linux-ia32@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ia32/-/@esbuild/linux-ia32-0.17.8.tgz#ee400af7b3bc69e8ca2e593ca35156ffb9abd54f"
-  integrity sha1-7kAK97O8aejKLlk8o1FW/7mr1U8=
+"@esbuild/linux-ia32@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ia32/-/@esbuild/linux-ia32-0.17.15.tgz#eb28a13f9b60b5189fcc9e98e1024f6b657ba54c"
+  integrity sha1-6yihP5tgtRifzJ6Y4QJPa2V7pUw=
 
-"@esbuild/linux-loong64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-loong64/-/@esbuild/linux-loong64-0.17.8.tgz#8c509d8a454693d39824b83b3f66c400872fce82"
-  integrity sha1-jFCdikVGk9OYJLg7P2bEAIcvzoI=
+"@esbuild/linux-loong64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-loong64/-/@esbuild/linux-loong64-0.17.15.tgz#32454bdfe144cf74b77895a8ad21a15cb81cfbe5"
+  integrity sha1-MkVL3+FEz3S3eJWorSGhXLgc++U=
 
-"@esbuild/linux-mips64el@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-mips64el/-/@esbuild/linux-mips64el-0.17.8.tgz#f2b0d36e63fb26bc3f95b203b6a80638292101ca"
-  integrity sha1-8rDTbmP7Jrw/lbIDtqgGOCkhAco=
+"@esbuild/linux-mips64el@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-mips64el/-/@esbuild/linux-mips64el-0.17.15.tgz#af12bde0d775a318fad90eb13a0455229a63987c"
+  integrity sha1-rxK94Nd1oxj62Q6xOgRVIppjmHw=
 
-"@esbuild/linux-ppc64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ppc64/-/@esbuild/linux-ppc64-0.17.8.tgz#1e628be003e036e90423716028cc884fe5ba25bd"
-  integrity sha1-HmKL4APgNukEI3FgKMyIT+W6Jb0=
+"@esbuild/linux-ppc64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ppc64/-/@esbuild/linux-ppc64-0.17.15.tgz#34c5ed145b2dfc493d3e652abac8bd3baa3865a5"
+  integrity sha1-NMXtFFst/Ek9PmUqusi9O6o4ZaU=
 
-"@esbuild/linux-riscv64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-riscv64/-/@esbuild/linux-riscv64-0.17.8.tgz#419a815cb4c3fb9f1b78ef5295f5b48b8bf6427a"
-  integrity sha1-QZqBXLTD+58beO9SlfW0i4v2Qno=
+"@esbuild/linux-riscv64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-riscv64/-/@esbuild/linux-riscv64-0.17.15.tgz#87bd515e837f2eb004b45f9e6a94dc5b93f22b92"
+  integrity sha1-h71RXoN/LrAEtF+eapTcW5PyK5I=
 
-"@esbuild/linux-s390x@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-s390x/-/@esbuild/linux-s390x-0.17.8.tgz#291c49ae5c3d11d226352755c0835911fe1a9e5c"
-  integrity sha1-KRxJrlw9EdImNSdVwINZEf4anlw=
+"@esbuild/linux-s390x@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-s390x/-/@esbuild/linux-s390x-0.17.15.tgz#20bf7947197f199ddac2ec412029a414ceae3aa3"
+  integrity sha1-IL95Rxl/GZ3awuxBICmkFM6uOqM=
 
-"@esbuild/linux-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-x64/-/@esbuild/linux-x64-0.17.8.tgz#03199d91c76faf80bd54104f5cbf0a489bc39f6a"
-  integrity sha1-Axmdkcdvr4C9VBBPXL8KSJvDn2o=
+"@esbuild/linux-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-x64/-/@esbuild/linux-x64-0.17.15.tgz#31b93f9c94c195e852c20cd3d1914a68aa619124"
+  integrity sha1-Mbk/nJTBlehSwgzT0ZFKaKphkSQ=
 
-"@esbuild/netbsd-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/netbsd-x64/-/@esbuild/netbsd-x64-0.17.8.tgz#b436d767e1b21852f9ed212e2bb57f77203b0ae2"
-  integrity sha1-tDbXZ+GyGFL57SEuK7V/dyA7CuI=
+"@esbuild/netbsd-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/netbsd-x64/-/@esbuild/netbsd-x64-0.17.15.tgz#8da299b3ac6875836ca8cdc1925826498069ac65"
+  integrity sha1-jaKZs6xodYNsqM3BklgmSYBprGU=
 
-"@esbuild/openbsd-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/openbsd-x64/-/@esbuild/openbsd-x64-0.17.8.tgz#d1481d8539e21d4729cd04a0450a26c2c8789e89"
-  integrity sha1-0UgdhTniHUcpzQSgRQomwsh4nok=
+"@esbuild/openbsd-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/openbsd-x64/-/@esbuild/openbsd-x64-0.17.15.tgz#04a1ec3d4e919714dba68dcf09eeb1228ad0d20c"
+  integrity sha1-BKHsPU6RlxTbpo3PCe6xIorQ0gw=
 
-"@esbuild/sunos-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/sunos-x64/-/@esbuild/sunos-x64-0.17.8.tgz#2cfb8126e079b2c00fd1bf095541e9f5c47877e4"
-  integrity sha1-LPuBJuB5ssAP0b8JVUHp9cR4d+Q=
+"@esbuild/sunos-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/sunos-x64/-/@esbuild/sunos-x64-0.17.15.tgz#6694ebe4e16e5cd7dab6505ff7c28f9c1c695ce5"
+  integrity sha1-ZpTr5OFuXNfatlBf98KPnBxpXOU=
 
-"@esbuild/win32-arm64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-arm64/-/@esbuild/win32-arm64-0.17.8.tgz#7c6ecfd097ca23b82119753bf7072bbaefe51e3a"
-  integrity sha1-fG7P0JfKI7ghGXU79wcruu/lHjo=
+"@esbuild/win32-arm64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-arm64/-/@esbuild/win32-arm64-0.17.15.tgz#1f95b2564193c8d1fee8f8129a0609728171d500"
+  integrity sha1-H5WyVkGTyNH+6PgSmgYJcoFx1QA=
 
-"@esbuild/win32-ia32@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-ia32/-/@esbuild/win32-ia32-0.17.8.tgz#cffec63c3cb0ef8563a04df4e09fa71056171d00"
-  integrity sha1-z/7GPDyw74VjoE304J+nEFYXHQA=
+"@esbuild/win32-ia32@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-ia32/-/@esbuild/win32-ia32-0.17.15.tgz#c362b88b3df21916ed7bcf75c6d09c6bf3ae354a"
+  integrity sha1-w2K4iz3yGRbte891xtCca/OuNUo=
 
-"@esbuild/win32-x64@0.17.8":
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-x64/-/@esbuild/win32-x64-0.17.8.tgz#200a0965cf654ac28b971358ecdca9cc5b44c335"
-  integrity sha1-IAoJZc9lSsKLlxNY7NypzFtEwzU=
+"@esbuild/win32-x64@0.17.15":
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-x64/-/@esbuild/win32-x64-0.17.15.tgz#c2e737f3a201ebff8e2ac2b8e9f246b397ad19b8"
+  integrity sha1-wuc386IB6/+OKsK46fJGs5etGbg=
 
 "@eslint/eslintrc@^1.4.1":
   version "1.4.1"
@@ -1525,10 +1676,10 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@leichtgewicht/ip-codec/-/@leichtgewicht/ip-codec-2.0.4.tgz"
   integrity sha1-sqxibWy5yHGKtFkWbUu0Bbj/p4s=
 
-"@ngtools/webpack@15.2.0":
-  version "15.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@ngtools/webpack/-/@ngtools/webpack-15.2.0.tgz"
-  integrity sha1-ht9NA/SswwvDzxVxZk3bKTWpLUU=
+"@ngtools/webpack@16.0.0-next.7":
+  version "16.0.0-next.7"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@ngtools/webpack/-/@ngtools/webpack-16.0.0-next.7.tgz#63ad4d55f5374b0830e9b0333f276d17a58e261a"
+  integrity sha1-Y61NVfU3Swgw6bAzPydtF6WOJho=
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1753,11 +1904,6 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@types/node/-/@types/node-18.11.18.tgz"
   integrity sha1-jfuX8Nojwik+VUxaUNYe8TTXaX8=
 
-"@types/parse-json@^4.0.0":
-  version "4.0.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@types/parse-json/-/@types/parse-json-4.0.0.tgz"
-  integrity sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=
-
 "@types/qs@*":
   version "6.9.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@types/qs/-/@types/qs-6.9.7.tgz"
@@ -1889,6 +2035,11 @@
   dependencies:
     "@typescript-eslint/types" "5.48.1"
     eslint-visitor-keys "^3.3.0"
+
+"@vitejs/plugin-basic-ssl@1.0.1":
+  version "1.0.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@vitejs/plugin-basic-ssl/-/@vitejs/plugin-basic-ssl-1.0.1.tgz#48c46eab21e0730921986ce742563ae83fe7fe34"
+  integrity sha1-SMRuqyHgcwkhmGznQlY66D/n/jQ=
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
@@ -2241,13 +2392,13 @@ astral-regex@^2.0.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/astral-regex/-/astral-regex-2.0.0.tgz"
   integrity sha1-SDFDxWeu7UeFdZwIZXhtx319LjE=
 
-autoprefixer@10.4.13:
-  version "10.4.13"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/autoprefixer/-/autoprefixer-10.4.13.tgz"
-  integrity sha1-tRNrWZMCCaMh6fo9yi58TSI+g6g=
+autoprefixer@10.4.14:
+  version "10.4.14"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/autoprefixer/-/autoprefixer-10.4.14.tgz#e28d49902f8e759dd25b153264e862df2705f79d"
+  integrity sha1-4o1JkC+OdZ3SWxUyZOhi3ycF950=
   dependencies:
-    browserslist "^4.21.4"
-    caniuse-lite "^1.0.30001426"
+    browserslist "^4.21.5"
+    caniuse-lite "^1.0.30001464"
     fraction.js "^4.2.0"
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
@@ -2402,7 +2553,7 @@ braces@^3.0.2, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-browserslist@4.21.5, browserslist@^4.14.5, browserslist@^4.21.3, browserslist@^4.21.4:
+browserslist@4.21.5, browserslist@^4.14.5, browserslist@^4.21.3, browserslist@^4.21.4, browserslist@^4.21.5:
   version "4.21.5"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/browserslist/-/browserslist-4.21.5.tgz"
   integrity sha1-dcXa5gBj7mQfl34A7dPPsvt69qc=
@@ -2503,10 +2654,15 @@ camelcase@^5.3.1:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/camelcase/-/camelcase-5.3.1.tgz"
   integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
 
-caniuse-lite@^1.0.30001426, caniuse-lite@^1.0.30001449:
+caniuse-lite@^1.0.30001449:
   version "1.0.30001457"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/caniuse-lite/-/caniuse-lite-1.0.30001457.tgz"
   integrity sha1-avNLtdcgB04gmUMqpSLCFVWhgwE=
+
+caniuse-lite@^1.0.30001464:
+  version "1.0.30001476"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/caniuse-lite/-/caniuse-lite-1.0.30001476.tgz#759906c53eae17133217d75b482f9dc5c02f7898"
+  integrity sha1-dZkGxT6uFxMyF9dbSC+dxcAveJg=
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -2790,16 +2946,20 @@ cors@~2.8.5:
     object-assign "^4"
     vary "^1"
 
-cosmiconfig@^7.0.0:
-  version "7.1.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/cosmiconfig/-/cosmiconfig-7.1.0.tgz"
-  integrity sha1-FEO5r6WWtnAILqRsvY9qYrhGNfY=
+cosmiconfig-typescript-loader@^4.3.0:
+  version "4.3.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-4.3.0.tgz#c4259ce474c9df0f32274ed162c0447c951ef073"
+  integrity sha1-xCWc5HTJ3w8yJ07RYsBEfJUe8HM=
+
+cosmiconfig@^8.1.3:
+  version "8.1.3"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/cosmiconfig/-/cosmiconfig-8.1.3.tgz#0e614a118fcc2d9e5afc2f87d53cd09931015689"
+  integrity sha1-DmFKEY/MLZ5a/C+H1TzQmTEBVok=
   dependencies:
-    "@types/parse-json" "^4.0.0"
     import-fresh "^3.2.1"
+    js-yaml "^4.1.0"
     parse-json "^5.0.0"
     path-type "^4.0.0"
-    yaml "^1.10.0"
 
 critters@0.0.16:
   version "0.0.16"
@@ -2957,11 +3117,6 @@ depd@^1.1.2, depd@~1.1.2:
   version "1.1.2"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/depd/-/depd-1.1.2.tgz"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
-
-dependency-graph@^0.11.0:
-  version "0.11.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/dependency-graph/-/dependency-graph-0.11.0.tgz"
-  integrity sha1-rAzn7WilTaIhZahel6AdU/XrLic=
 
 destroy@1.2.0:
   version "1.2.0"
@@ -3174,38 +3329,38 @@ es-module-lexer@^0.9.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/es-module-lexer/-/es-module-lexer-0.9.3.tgz"
   integrity sha1-bxPbAMw4QXE32vdDZvU1yOtDjxk=
 
-esbuild-wasm@0.17.8:
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild-wasm/-/esbuild-wasm-0.17.8.tgz"
-  integrity sha1-wjSDBkMMJ2E+48yalVzdVN8pE3o=
+esbuild-wasm@0.17.15:
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild-wasm/-/esbuild-wasm-0.17.15.tgz#e8c9c9d46bd6a0c1ed100cf85c4265f3c9b14cac"
+  integrity sha1-6MnJ1GvWoMHtEAz4XEJl88mxTKw=
 
-esbuild@0.17.8:
-  version "0.17.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild/-/esbuild-0.17.8.tgz"
-  integrity sha1-9/eZq8fNzj8PLj4MAfEg1NVRk7Q=
+esbuild@0.17.15, esbuild@^0.17.5:
+  version "0.17.15"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild/-/esbuild-0.17.15.tgz#209ebc87cb671ffb79574db93494b10ffaf43cbc"
+  integrity sha1-IJ68h8tnH/t5V025NJSxD/r0PLw=
   optionalDependencies:
-    "@esbuild/android-arm" "0.17.8"
-    "@esbuild/android-arm64" "0.17.8"
-    "@esbuild/android-x64" "0.17.8"
-    "@esbuild/darwin-arm64" "0.17.8"
-    "@esbuild/darwin-x64" "0.17.8"
-    "@esbuild/freebsd-arm64" "0.17.8"
-    "@esbuild/freebsd-x64" "0.17.8"
-    "@esbuild/linux-arm" "0.17.8"
-    "@esbuild/linux-arm64" "0.17.8"
-    "@esbuild/linux-ia32" "0.17.8"
-    "@esbuild/linux-loong64" "0.17.8"
-    "@esbuild/linux-mips64el" "0.17.8"
-    "@esbuild/linux-ppc64" "0.17.8"
-    "@esbuild/linux-riscv64" "0.17.8"
-    "@esbuild/linux-s390x" "0.17.8"
-    "@esbuild/linux-x64" "0.17.8"
-    "@esbuild/netbsd-x64" "0.17.8"
-    "@esbuild/openbsd-x64" "0.17.8"
-    "@esbuild/sunos-x64" "0.17.8"
-    "@esbuild/win32-arm64" "0.17.8"
-    "@esbuild/win32-ia32" "0.17.8"
-    "@esbuild/win32-x64" "0.17.8"
+    "@esbuild/android-arm" "0.17.15"
+    "@esbuild/android-arm64" "0.17.15"
+    "@esbuild/android-x64" "0.17.15"
+    "@esbuild/darwin-arm64" "0.17.15"
+    "@esbuild/darwin-x64" "0.17.15"
+    "@esbuild/freebsd-arm64" "0.17.15"
+    "@esbuild/freebsd-x64" "0.17.15"
+    "@esbuild/linux-arm" "0.17.15"
+    "@esbuild/linux-arm64" "0.17.15"
+    "@esbuild/linux-ia32" "0.17.15"
+    "@esbuild/linux-loong64" "0.17.15"
+    "@esbuild/linux-mips64el" "0.17.15"
+    "@esbuild/linux-ppc64" "0.17.15"
+    "@esbuild/linux-riscv64" "0.17.15"
+    "@esbuild/linux-s390x" "0.17.15"
+    "@esbuild/linux-x64" "0.17.15"
+    "@esbuild/netbsd-x64" "0.17.15"
+    "@esbuild/openbsd-x64" "0.17.15"
+    "@esbuild/sunos-x64" "0.17.15"
+    "@esbuild/win32-arm64" "0.17.15"
+    "@esbuild/win32-ia32" "0.17.15"
+    "@esbuild/win32-x64" "0.17.15"
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -4196,7 +4351,7 @@ is-callable@^1.1.3:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/is-callable/-/is-callable-1.2.7.tgz"
   integrity sha1-O8KoXqdC2eNiBdys3XLKH9xRsFU=
 
-is-core-module@^2.8.1, is-core-module@^2.9.0:
+is-core-module@^2.11.0, is-core-module@^2.8.1, is-core-module@^2.9.0:
   version "2.11.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/is-core-module/-/is-core-module-2.11.0.tgz"
   integrity sha1-rUyz44Y+gUUjyW8/WNJsxXD/AUQ=
@@ -4602,10 +4757,23 @@ kind-of@^6.0.2:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/kind-of/-/kind-of-6.0.3.tgz"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
-klona@^2.0.4, klona@^2.0.5:
+klona@^2.0.4:
   version "2.0.5"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/klona/-/klona-2.0.5.tgz"
   integrity sha1-0WZXTZAHY5XZljqnqSj6u412r7w=
+
+klona@^2.0.6:
+  version "2.0.6"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
+  integrity sha1-hb/7+BnAOy9TJwQSQgpFVe+ILiI=
+
+launch-editor@^2.6.0:
+  version "2.6.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/launch-editor/-/launch-editor-2.6.0.tgz#4c0c1a6ac126c572bd9ff9a30da1d2cae66defd7"
+  integrity sha1-TAwaasEmxXK9n/mjDaHSyuZt79c=
+  dependencies:
+    picocolors "^1.0.0"
+    shell-quote "^1.7.3"
 
 less-loader@11.1.0:
   version "11.1.0"
@@ -4792,10 +4960,10 @@ magic-string@0.29.0:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
-magic-string@^0.27.0:
-  version "0.27.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/magic-string/-/magic-string-0.27.0.tgz"
-  integrity sha1-5KNBO0urbZjSvs/9SLSiV+/9u/M=
+magic-string@0.30.0:
+  version "0.30.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/magic-string/-/magic-string-0.30.0.tgz#fd58a4748c5c4547338a424e90fa5dd17f4de529"
+  integrity sha1-/VikdIxcRUczikJOkPpd0X9N5Sk=
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
@@ -4951,10 +5119,10 @@ mimic-fn@^4.0.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/mimic-fn/-/mimic-fn-4.0.0.tgz"
   integrity sha1-YKkFUNXLCyOcymXYk7GlOymHHsw=
 
-mini-css-extract-plugin@2.7.2:
-  version "2.7.2"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/mini-css-extract-plugin/-/mini-css-extract-plugin-2.7.2.tgz"
-  integrity sha1-4EnT6n0+Tnc6rVhcbLMpzgx7ctc=
+mini-css-extract-plugin@2.7.5:
+  version "2.7.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/mini-css-extract-plugin/-/mini-css-extract-plugin-2.7.5.tgz#afbb344977659ec0f1f6e050c7aea456b121cfc5"
+  integrity sha1-r7s0SXdlnsDx9uBQx66kVrEhz8U=
   dependencies:
     schema-utils "^4.0.0"
 
@@ -5403,6 +5571,15 @@ open@8.4.1:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
+open@8.4.2:
+  version "8.4.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/open/-/open-8.4.2.tgz#5b5ffe2a8f793dcd2aad73e550cb87b59cb084f9"
+  integrity sha1-W1/+Ko95Pc0qrXPlUMuHtZywhPk=
+  dependencies:
+    define-lazy-prop "^2.0.0"
+    is-docker "^2.1.1"
+    is-wsl "^2.2.0"
+
 open@^8.0.9:
   version "8.4.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/open/-/open-8.4.0.tgz"
@@ -5656,13 +5833,14 @@ pkg-dir@^4.1.0:
   dependencies:
     find-up "^4.0.0"
 
-postcss-loader@7.0.2:
-  version "7.0.2"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss-loader/-/postcss-loader-7.0.2.tgz"
-  integrity sha1-tT/0Sib7o2iO7pKgSMfy1IAuI7s=
+postcss-loader@7.2.3:
+  version "7.2.3"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss-loader/-/postcss-loader-7.2.3.tgz#c2d491a769102e0aac228d53fb1ad376cc158bb2"
+  integrity sha1-wtSRp2kQLgqsIo1T+xrTdswVi7I=
   dependencies:
-    cosmiconfig "^7.0.0"
-    klona "^2.0.5"
+    cosmiconfig "^8.1.3"
+    cosmiconfig-typescript-loader "^4.3.0"
+    klona "^2.0.6"
     semver "^7.3.8"
 
 postcss-modules-extract-imports@^3.0.0:
@@ -5706,7 +5884,7 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   integrity sha1-cjwJkgg2um0+WvAZ+SvAlxwC5RQ=
 
-postcss@8.4.21, postcss@^8.2.14, postcss@^8.3.7, postcss@^8.4.19:
+postcss@8.4.21, postcss@^8.2.14, postcss@^8.3.7, postcss@^8.4.19, postcss@^8.4.21:
   version "8.4.21"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss/-/postcss-8.4.21.tgz"
   integrity sha1-xjm3GaV+/DGHsToddlZ1SF9BNPQ=
@@ -5969,6 +6147,15 @@ resolve@1.22.1, resolve@^1.14.2:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
+resolve@^1.22.1:
+  version "1.22.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/resolve/-/resolve-1.22.2.tgz#0ed0943d4e301867955766c9f3e1ae6d01c6845f"
+  integrity sha1-DtCUPU4wGGeVV2bJ8+GubQHGhF8=
+  dependencies:
+    is-core-module "^2.11.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
+
 restore-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/restore-cursor/-/restore-cursor-3.1.0.tgz"
@@ -6004,6 +6191,13 @@ rimraf@^3.0.0, rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
+rollup@^3.18.0:
+  version "3.20.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/rollup/-/rollup-3.20.2.tgz#f798c600317f216de2e4ad9f4d9ab30a89b690ff"
+  integrity sha1-95jGADF/IW3i5K2fTZqzCom2kP8=
+  optionalDependencies:
+    fsevents "~2.3.2"
+
 run-async@^2.4.0:
   version "2.4.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/run-async/-/run-async-2.4.1.tgz"
@@ -6023,7 +6217,7 @@ rxjs@6.6.7:
   dependencies:
     tslib "^1.9.0"
 
-rxjs@^7.5.5, rxjs@^7.8.0:
+rxjs@7.8.0, rxjs@^7.5.5, rxjs@^7.8.0:
   version "7.8.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/rxjs/-/rxjs-7.8.0.tgz"
   integrity sha1-kKk4hiqCiI/0xzWYEaWV4U4eCaQ=
@@ -6052,18 +6246,18 @@ safe-buffer@5.2.1, safe-buffer@>=5.1.0, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/safer-buffer/-/safer-buffer-2.1.2.tgz"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
-sass-loader@13.2.0:
-  version "13.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sass-loader/-/sass-loader-13.2.0.tgz"
-  integrity sha1-gBlQUPWMmqxjt5L6Uqy29eD2vcM=
+sass-loader@13.2.2:
+  version "13.2.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sass-loader/-/sass-loader-13.2.2.tgz#f97e803993b24012c10d7ba9676548bf7a6b18b9"
+  integrity sha1-+X6AOZOyQBLBDXupZ2VIv3prGLk=
   dependencies:
-    klona "^2.0.4"
+    klona "^2.0.6"
     neo-async "^2.6.2"
 
-sass@1.58.1:
-  version "1.58.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sass/-/sass-1.58.1.tgz"
-  integrity sha1-F6sDkAdqUFeO0HM/HMRUKeA0BfY=
+sass@1.60.0:
+  version "1.60.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sass/-/sass-1.60.0.tgz#657f0c23a302ac494b09a5ba8497b739fb5b5a81"
+  integrity sha1-ZX8MI6MCrElLCaW6hJe3OftbWoE=
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -6204,6 +6398,11 @@ shebang-regex@^3.0.0:
   version "3.0.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/shebang-regex/-/shebang-regex-3.0.0.tgz"
   integrity sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI=
+
+shell-quote@^1.7.3:
+  version "1.8.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
+  integrity sha1-bb9Nt1UVrVusY7TxiUw6FUx2ZoA=
 
 side-channel@^1.0.4:
   version "1.0.4"
@@ -6570,10 +6769,10 @@ terser-webpack-plugin@^5.1.3:
     serialize-javascript "^6.0.0"
     terser "^5.14.1"
 
-terser@5.16.3:
-  version "5.16.3"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/terser/-/terser-5.16.3.tgz"
-  integrity sha1-MmYBeptoLt/gGbjs3dKrqueznGs=
+terser@5.16.8:
+  version "5.16.8"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/terser/-/terser-5.16.8.tgz#ccde583dabe71df3f4ed02b65eb6532e0fae15d5"
+  integrity sha1-zN5YPavnHfP07QK2XrZTLg+uFdU=
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     acorn "^8.5.0"
@@ -6710,10 +6909,10 @@ typed-assert@^1.0.8:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/typed-assert/-/typed-assert-1.0.9.tgz"
   integrity sha1-ivnU+TQyxJcOxxfjAG8z8TWwYhM=
 
-typescript@~4.8.2:
-  version "4.8.4"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/typescript/-/typescript-4.8.4.tgz"
-  integrity sha1-xGSryhWWaVl75flriUNQCyOOYOY=
+typescript@5.0.3:
+  version "5.0.3"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/typescript/-/typescript-5.0.3.tgz#fe976f0c826a88d0a382007681cbb2da44afdedf"
+  integrity sha1-/pdvDIJqiNCjggB2gcuy2kSv3t8=
 
 ua-parser-js@^0.7.30:
   version "0.7.32"
@@ -6831,6 +7030,18 @@ vary@^1, vary@~1.1.2:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/vary/-/vary-1.1.2.tgz"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
+vite@4.2.1:
+  version "4.2.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/vite/-/vite-4.2.1.tgz#6c2eb337b0dfd80a9ded5922163b94949d7fc254"
+  integrity sha1-bC6zN7Df2Aqd7VkiFjuUlJ1/wlQ=
+  dependencies:
+    esbuild "^0.17.5"
+    postcss "^8.4.21"
+    resolve "^1.22.1"
+    rollup "^3.18.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
 void-elements@^2.0.0:
   version "2.0.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/void-elements/-/void-elements-2.0.1.tgz"
@@ -6858,10 +7069,10 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-webpack-dev-middleware@6.0.1:
-  version "6.0.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack-dev-middleware/-/webpack-dev-middleware-6.0.1.tgz"
-  integrity sha1-/VhRJ+1E2rPyU9rw2Y9NWKUIjMI=
+webpack-dev-middleware@6.0.2:
+  version "6.0.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack-dev-middleware/-/webpack-dev-middleware-6.0.2.tgz#4aab69257378e01d6fe964a8b2d07e8a87623ebc"
+  integrity sha1-SqtpJXN44B1v6WSostB+iodiPrw=
   dependencies:
     colorette "^2.0.10"
     memfs "^3.4.12"
@@ -6880,10 +7091,10 @@ webpack-dev-middleware@^5.3.1:
     range-parser "^1.2.1"
     schema-utils "^4.0.0"
 
-webpack-dev-server@4.11.1:
-  version "4.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack-dev-server/-/webpack-dev-server-4.11.1.tgz"
-  integrity sha1-rgfw1xygQ4z4hEbwkCm5LOgTgLU=
+webpack-dev-server@4.13.2:
+  version "4.13.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack-dev-server/-/webpack-dev-server-4.13.2.tgz#d97445481d78691efe6d9a3b230833d802fc31f9"
+  integrity sha1-2XRFSB14aR7+bZo7Iwgz2AL8Mfk=
   dependencies:
     "@types/bonjour" "^3.5.9"
     "@types/connect-history-api-fallback" "^1.3.5"
@@ -6904,6 +7115,7 @@ webpack-dev-server@4.11.1:
     html-entities "^2.3.2"
     http-proxy-middleware "^2.0.3"
     ipaddr.js "^2.0.1"
+    launch-editor "^2.6.0"
     open "^8.0.9"
     p-retry "^4.5.0"
     rimraf "^3.0.2"
@@ -6913,7 +7125,7 @@ webpack-dev-server@4.11.1:
     sockjs "^0.3.24"
     spdy "^4.0.2"
     webpack-dev-middleware "^5.3.1"
-    ws "^8.4.2"
+    ws "^8.13.0"
 
 webpack-merge@5.8.0:
   version "5.8.0"
@@ -6935,10 +7147,10 @@ webpack-subresource-integrity@5.1.0:
   dependencies:
     typed-assert "^1.0.8"
 
-webpack@5.75.0:
-  version "5.75.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack/-/webpack-5.75.0.tgz"
-  integrity sha1-HkQEaGR7JQWGDpTJ/z5E1bWCwVI=
+webpack@5.77.0:
+  version "5.77.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack/-/webpack-5.77.0.tgz#dea3ad16d7ea6b84aa55fa42f4eac9f30e7eb9b4"
+  integrity sha1-3qOtFtfqa4SqVfpC9OrJ8w5+ubQ=
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
@@ -7073,10 +7285,10 @@ wrappy@1:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/wrappy/-/wrappy-1.0.2.tgz"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-ws@^8.4.2:
-  version "8.12.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/ws/-/ws-8.12.0.tgz"
-  integrity sha1-SFB0zDkmidp44YKKn/I1heBs3dg=
+ws@^8.13.0:
+  version "8.13.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
+  integrity sha1-mp+5L5PPQVEqBzXI9N0JuKEhHNA=
 
 ws@~8.2.3:
   version "8.2.3"
@@ -7097,11 +7309,6 @@ yallist@^4.0.0:
   version "4.0.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/yallist/-/yallist-4.0.0.tgz"
   integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
-
-yaml@^1.10.0:
-  version "1.10.2"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/yaml/-/yaml-1.10.2.tgz"
-  integrity sha1-IwHF/78StGfejaIzOkWeKeeSDks=
 
 yaml@^2.1.3:
   version "2.2.1"
