@@ -1,0 +1,44 @@
+@import '../../../../ui/token/mixin/flex';
+@import '../../../../ui/token/variables/fontSize';
+form {
+    height: fit-content
+}
+.form-wrapper-content {
+    @include d-flex;
+    flex-direction: column;
+    color: var(--palette-text-primary);
+    font-size: var(--text-sm);
+}
+.input-wrapper {
+    @include d-flex;
+    height: 5rem;
+}
+label {
+    margin-bottom: 0.5rem;
+}
+.number-prefix {
+    color: var(--palette-text-primary);
+    border:  .5px var(--palette-text-primary) solid;
+    border-right: 0;
+    border-radius: var(--theme-borderRadius-sm) 0 0 var(--theme-borderRadius-sm);
+    padding: 0 1.6em;
+    align-items: center;
+    font-size: 1.3rem;
+    @include d-flex-vh;
+}
+
+input {
+    border: .1px var(--palette-text-primary) solid;
+    border-radius: 0 var(--theme-borderRadius-sm) var(--theme-borderRadius-sm) 0;
+    padding: 0;
+    background-color: transparent;
+    width: 100%;
+    color: var(--palette-text-primary);
+    padding-left: 1rem;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+

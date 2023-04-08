@@ -1,0 +1,12 @@
+<form [formGroup]="form">
+    <div class="form-wrapper-content">
+
+        <label for="value">Valor inicial: </label>
+        <div class="input-wrapper">
+            <div class="number-prefix">
+                R$: 
+            </div>
+            <input formControlName="value"  placeholder="0,00" type="text" mask="separator.2" thousandSeparator="." >
+        </div>
+    </div>
+</form>
