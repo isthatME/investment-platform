@@ -5143,6 +5143,13 @@ neo-async@^2.6.2:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
 
+ngx-mask@^15.1.0:
+  version "15.1.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/ngx-mask/-/ngx-mask-15.1.0.tgz#1a7cf659791634e42680ad6cba6ec55a957a3870"
+  integrity sha1-Gnz2WXkWNOQmgK1sum7FWpV6OHA=
+  dependencies:
+    tslib "^2.3.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/nice-napi/-/nice-napi-1.0.2.tgz"
