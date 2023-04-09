@@ -1,0 +1,33 @@
+@import '../../token/mixin/flex';
+.btn {
+  @include d-flex-vh;
+  @include d-inline-flex;
+  outline: none;
+  padding: 6px 16px;
+  min-width: 96px;
+  min-height: 48px;
+  font-weight: normal;
+  font-size: var(--text-md);
+  border-radius: var(--theme-borderRadius-g);
+  box-shadow: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+.primary-button {
+  color: var(--palette-text-primary);
+  background: var(--palette-primary-main);
+  border: 1px solid rgba(var(--palette-primary-main-rgb), 0.5);
+  &:hover {
+    background: var(--palette-button-light);
+  }
+
+}
+.disabled-button {
+  color: var(--palette-text-secondary);
+  background: transparent;
+  border: none;
+  &:hover {
+    color: var(--palette-text-primary);
+  }
+}
