@@ -1,6 +1,6 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { FormBuilder, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { NgxMaskDirective, provideNgxMask } from 'ngx-mask';
 
 @Component({
@@ -8,20 +8,23 @@ import { NgxMaskDirective, provideNgxMask } from 'ngx-mask';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule, NgxMaskDirective, FormsModule],
   templateUrl: './compound-interest-form.component.html',
-  styleUrls: ['./compound-interest-form.component.scss'],
+  styleUrls: ['./compound-interest-form.component.scss', '../../../../ui/components/button/button.scss', '../../../../ui/components/select/select.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [provideNgxMask()]
 })
-export class CompoundInterestFormComponent implements OnInit {
-  form!: FormGroup;
-  constructor(private readonly fb: FormBuilder) {}
-  ngOnInit(): void {
-    this.buildForm();
-  }
+export class CompoundInterestFormComponent {
 
-  buildForm(): void {
-    this.form = this.fb.group({
-      value: [null, Validators.required]
-    });
+  form = this.fb.group({
+    initialValue: [null, Validators.required],
+    monthlyValue: [null, Validators.required],
+    interestRate: [null, Validators.required],
+    period: [null, Validators.required]
+  });
+
+  constructor(private readonly fb: FormBuilder) {}
+
+  onSubmit(): void{
+    // form submission logic
   }
 }
+

@@ -1,0 +1,11 @@
+@import '../../token/mixin/flex';
+.select {
+  @include d-flex-self-e;
+  border:  .5px var(--palette-text-primary) solid;
+  border-radius: var(--theme-borderRadius-sm) 0 0 var(--theme-borderRadius-sm);
+  padding: 0 1rem;
+  width: 40%;
+  height: 6rem;
+  margin: 1rem;
+  cursor: pointer;
+}
