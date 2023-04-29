@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { AppShellComponent } from './app-shell/app-shell.component';
+import { AppShellComponent } from './pages/app-shell/app-shell.component';
 export const APP_COMPONENT_IMPORTS = [RouterModule, AppShellComponent];
 @Component({
   selector: 'app-root',
