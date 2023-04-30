@@ -4,15 +4,15 @@ import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 import { NgxMaskDirective, provideNgxMask } from 'ngx-mask';
 
 @Component({
-  selector: 'app-compound-interest-form',
+  selector: 'app-base-interest-form',
   standalone: true,
   imports: [CommonModule,FormsModule, ReactiveFormsModule, NgxMaskDirective],
-  templateUrl: './compound-interest-form.component.html',
-  styleUrls: ['./compound-interest-form.component.scss', '../../../../ui/components/button/button.scss', '../../../../ui/components/select/select.scss'],
+  templateUrl: './base-interest-form.component.html',
+  styleUrls: ['./base-interest-form.component.scss', '../../../../ui/components/button/button.scss', '../../../../ui/components/select/select.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [provideNgxMask()]
 })
-export class CompoundInterestFormComponent {
+export class BaseInterestFormComponent {
 
   form: FormGroup = this.fb.group({
     initialValue: [null, Validators.required],
@@ -24,7 +24,6 @@ export class CompoundInterestFormComponent {
   constructor(private readonly fb: FormBuilder) {}
 
   onSubmit(): void{
-    // form submission logic
+  
   }
 }
-
