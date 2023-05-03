@@ -17,13 +17,23 @@ export class BaseInterestFormComponent {
   form: FormGroup = this.fb.group({
     initialValue: [null, Validators.required],
     monthlyValue: [null, Validators.required],
-    interestRate: [null, Validators.required],
-    period: [null, Validators.required]
+    interestRate: this.fb.group({
+      value: [null, Validators.required],
+      type: ['month', Validators.required]
+    }),
+    period:  this.fb.group({
+      value: [null, Validators.required],
+      type: ['month', Validators.required]
+    }),
+    calculatorType: ['compound-interest', Validators.required],
   });
 
   constructor(private readonly fb: FormBuilder) {}
-
+  // private readonly calculatorHandle = inject(CalculatorHandleService);
   onSubmit(): void{
-  
+    // const value = this.calculatorHandle.compoundInterestHandle(this.form.value.initialValue, this.form.value.monthlyValue, this.form.value.interestRate, this.form.value.period)
+  }
+  changeCalculatorType(event: any): void {
+    this.form.patchValue(event.target.value, {onlySelf: true})
   }
 }
