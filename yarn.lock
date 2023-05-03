@@ -2,15 +2,7 @@
 # yarn lockfile v1
 
 
-"@ampproject/remapping@2.2.0":
-  version "2.2.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@ampproject/remapping/-/@ampproject/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
-  integrity sha1-VsEzgkeA3jF0rtWraDTzAmeQFU0=
-  dependencies:
-    "@jridgewell/gen-mapping" "^0.1.0"
-    "@jridgewell/trace-mapping" "^0.3.9"
-
-"@ampproject/remapping@^2.1.0", "@ampproject/remapping@^2.2.0":
+"@ampproject/remapping@2.2.1", "@ampproject/remapping@^2.1.0", "@ampproject/remapping@^2.2.0":
   version "2.2.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@ampproject/remapping/-/@ampproject/remapping-2.2.1.tgz#99e8e11851128b8702cd57c33684f1d0f260b630"
   integrity sha1-mejhGFESi4cCzVfDNoTx0PJgtjA=
@@ -18,31 +10,23 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@angular-devkit/architect@0.1502.7":
-  version "0.1502.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/architect/-/@angular-devkit/architect-0.1502.7.tgz#13fd0040dce4149ad3c1eaefc787f0de95e1cf3b"
-  integrity sha1-E/0AQNzkFJrTwervx4fw3pXhzzs=
+"@angular-devkit/architect@0.1600.0":
+  version "0.1600.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/architect/-/@angular-devkit/architect-0.1600.0.tgz#e132fe294a0a53d6246aeff9a30243b45b848481"
+  integrity sha1-4TL+KUoKU9Ykau/5owJDtFuEhIE=
   dependencies:
-    "@angular-devkit/core" "15.2.7"
-    rxjs "6.6.7"
+    "@angular-devkit/core" "16.0.0"
+    rxjs "7.8.1"
 
-"@angular-devkit/architect@0.1600.0-next.7":
-  version "0.1600.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/architect/-/@angular-devkit/architect-0.1600.0-next.7.tgz#5fc753941ac0db2f012be58503cdb5be14c086e4"
-  integrity sha1-X8dTlBrA2y8BK+WFA821vhTAhuQ=
+"@angular-devkit/build-angular@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-angular/-/@angular-devkit/build-angular-16.0.0.tgz#78aa68deaec96f3b2a79e0aa1b2d843c97085520"
+  integrity sha1-eKpo3q7JbzsqeeCqGy2EPJcIVSA=
   dependencies:
-    "@angular-devkit/core" "16.0.0-next.7"
-    rxjs "7.8.0"
-
-"@angular-devkit/build-angular@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-angular/-/@angular-devkit/build-angular-16.0.0-next.7.tgz#fb3f0cb8cbd4989f9594b391d335bd6c4760133f"
-  integrity sha1-+z8MuMvUmJ+VlLOR0zW9bEdgEz8=
-  dependencies:
-    "@ampproject/remapping" "2.2.0"
-    "@angular-devkit/architect" "0.1600.0-next.7"
-    "@angular-devkit/build-webpack" "0.1600.0-next.7"
-    "@angular-devkit/core" "16.0.0-next.7"
+    "@ampproject/remapping" "2.2.1"
+    "@angular-devkit/architect" "0.1600.0"
+    "@angular-devkit/build-webpack" "0.1600.0"
+    "@angular-devkit/core" "16.0.0"
     "@babel/core" "7.21.4"
     "@babel/generator" "7.21.4"
     "@babel/helper-annotate-as-pure" "7.18.6"
@@ -54,19 +38,19 @@
     "@babel/runtime" "7.21.0"
     "@babel/template" "7.20.7"
     "@discoveryjs/json-ext" "0.5.7"
-    "@ngtools/webpack" "16.0.0-next.7"
+    "@ngtools/webpack" "16.0.0"
     "@vitejs/plugin-basic-ssl" "1.0.1"
     ansi-colors "4.1.3"
     autoprefixer "10.4.14"
     babel-loader "9.1.2"
     babel-plugin-istanbul "6.1.1"
     browserslist "4.21.5"
-    cacache "17.0.4"
+    cacache "17.0.6"
     chokidar "3.5.3"
     copy-webpack-plugin "11.0.0"
     critters "0.0.16"
     css-loader "6.7.3"
-    esbuild-wasm "0.17.15"
+    esbuild-wasm "0.17.18"
     glob "8.1.0"
     https-proxy-agent "5.0.1"
     inquirer "8.2.4"
@@ -78,72 +62,62 @@
     loader-utils "3.2.1"
     magic-string "0.30.0"
     mini-css-extract-plugin "2.7.5"
+    mrmime "1.0.1"
     open "8.4.2"
     ora "5.4.1"
     parse5-html-rewriting-stream "7.0.0"
     piscina "3.2.0"
-    postcss "8.4.21"
-    postcss-loader "7.2.3"
+    postcss "8.4.23"
+    postcss-loader "7.2.4"
     resolve-url-loader "5.0.0"
-    rxjs "7.8.0"
-    sass "1.60.0"
+    rxjs "7.8.1"
+    sass "1.62.1"
     sass-loader "13.2.2"
-    semver "7.3.8"
+    semver "7.4.0"
     source-map-loader "4.0.1"
     source-map-support "0.5.21"
-    terser "5.16.8"
+    terser "5.17.1"
     text-table "0.2.0"
     tree-kill "1.2.2"
     tslib "2.5.0"
-    vite "4.2.1"
-    webpack "5.77.0"
+    vite "4.3.1"
+    webpack "5.80.0"
     webpack-dev-middleware "6.0.2"
     webpack-dev-server "4.13.2"
     webpack-merge "5.8.0"
     webpack-subresource-integrity "5.1.0"
   optionalDependencies:
-    esbuild "0.17.15"
+    esbuild "0.17.18"
 
-"@angular-devkit/build-webpack@0.1600.0-next.7":
-  version "0.1600.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-webpack/-/@angular-devkit/build-webpack-0.1600.0-next.7.tgz#f8233da68ba4c129f64c2180a01c6d1007ecdcd6"
-  integrity sha1-+CM9poukwSn2TCGAoBxtEAfs3NY=
+"@angular-devkit/build-webpack@0.1600.0":
+  version "0.1600.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/build-webpack/-/@angular-devkit/build-webpack-0.1600.0.tgz#38b258be5b81f7d8b6b836735114cc05adef3f4f"
+  integrity sha1-OLJYvluB99i2uDZzURTMBa3vP08=
   dependencies:
-    "@angular-devkit/architect" "0.1600.0-next.7"
-    rxjs "7.8.0"
+    "@angular-devkit/architect" "0.1600.0"
+    rxjs "7.8.1"
 
-"@angular-devkit/core@15.2.7":
-  version "15.2.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/core/-/@angular-devkit/core-15.2.7.tgz#c8a4de89fb0b5398b879621126d3c772fc6167b4"
-  integrity sha1-yKTeifsLU5i4eWIRJtPHcvxhZ7Q=
-  dependencies:
-    ajv "8.12.0"
-    ajv-formats "2.1.1"
-    jsonc-parser "3.2.0"
-    rxjs "6.6.7"
-    source-map "0.7.4"
-
-"@angular-devkit/core@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/core/-/@angular-devkit/core-16.0.0-next.7.tgz#37e989bde75f6c833863b06d100c8388594af215"
-  integrity sha1-N+mJvedfbIM4Y7BtEAyDiFlK8hU=
+"@angular-devkit/core@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/core/-/@angular-devkit/core-16.0.0.tgz#3d9066a9f4cea51beff8d5b03fda6a51d616904c"
+  integrity sha1-PZBmqfTOpRvv+NWwP9pqUdYWkEw=
   dependencies:
     ajv "8.12.0"
     ajv-formats "2.1.1"
     jsonc-parser "3.2.0"
-    rxjs "7.8.0"
+    rxjs "7.8.1"
     source-map "0.7.4"
 
-"@angular-devkit/schematics@15.2.7":
-  version "15.2.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/schematics/-/@angular-devkit/schematics-15.2.7.tgz#97315adcbc9f9452b60d719a848641670be87bc6"
-  integrity sha1-lzFa3LyflFK2DXGahIZBZwvoe8Y=
+"@angular-devkit/schematics@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular-devkit/schematics/-/@angular-devkit/schematics-16.0.0.tgz#72a7fef97993e32a519164cce52c0e624a336242"
+  integrity sha1-cqf++XmT4ypRkWTM5SwOYkozYkI=
   dependencies:
-    "@angular-devkit/core" "15.2.7"
+    "@angular-devkit/core" "16.0.0"
     jsonc-parser "3.2.0"
-    magic-string "0.29.0"
+    magic-string "0.30.0"
     ora "5.4.1"
-    rxjs "6.6.7"
+    rxjs "7.8.1"
 
 "@angular-eslint/builder@15.2.0":
   version "15.2.0"
@@ -202,10 +176,10 @@
     "@angular-eslint/bundled-angular-compiler" "15.2.0"
     "@typescript-eslint/utils" "5.48.1"
 
-"@angular/animations@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/animations/-/@angular/animations-16.0.0-next.7.tgz#9786d8dac13c26fb193601df4dd331eaa4a180e3"
-  integrity sha1-l4bY2sE8JvsZNgHfTdMx6qShgOM=
+"@angular/animations@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/animations/-/@angular/animations-16.0.0.tgz#499a3f5dc089c8d682a3f080ded7b9229aacd166"
+  integrity sha1-SZo/XcCJyNaCo/CA3te5Ipqs0WY=
   dependencies:
     tslib "^2.3.0"
 
@@ -218,41 +192,41 @@
   optionalDependencies:
     parse5 "^7.1.2"
 
-"@angular/cli@~15.2.0":
-  version "15.2.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/cli/-/@angular/cli-15.2.7.tgz#2d0dff23638d243af36a0b1353d5b7993408bf9d"
-  integrity sha1-LQ3/I2ONJDrzagsTU9W3mTQIv50=
+"@angular/cli@~16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/cli/-/@angular/cli-16.0.0.tgz#d360c60cb959d62cc4bf16f673f767cc91ff38a4"
+  integrity sha1-02DGDLlZ1izEvxb2c/dnzJH/OKQ=
   dependencies:
-    "@angular-devkit/architect" "0.1502.7"
-    "@angular-devkit/core" "15.2.7"
-    "@angular-devkit/schematics" "15.2.7"
-    "@schematics/angular" "15.2.7"
+    "@angular-devkit/architect" "0.1600.0"
+    "@angular-devkit/core" "16.0.0"
+    "@angular-devkit/schematics" "16.0.0"
+    "@schematics/angular" "16.0.0"
     "@yarnpkg/lockfile" "1.1.0"
     ansi-colors "4.1.3"
-    ini "3.0.1"
+    ini "4.0.0"
     inquirer "8.2.4"
     jsonc-parser "3.2.0"
     npm-package-arg "10.1.0"
     npm-pick-manifest "8.0.1"
-    open "8.4.1"
+    open "8.4.2"
     ora "5.4.1"
-    pacote "15.1.0"
-    resolve "1.22.1"
-    semver "7.3.8"
+    pacote "15.1.3"
+    resolve "1.22.2"
+    semver "7.4.0"
     symbol-observable "4.0.0"
-    yargs "17.6.2"
+    yargs "17.7.2"
 
-"@angular/common@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/common/-/@angular/common-16.0.0-next.7.tgz#661f1bd47e27a80ecf89281ce99e3937ef7a9f99"
-  integrity sha1-Zh8b1H4nqA7PiSgc6Z45N+96n5k=
+"@angular/common@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/common/-/@angular/common-16.0.0.tgz#5e436886b78b62ba3d341b75806b6b6cfa114b34"
+  integrity sha1-XkNohreLYro9NBt1gGtrbPoRSzQ=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/compiler-cli@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler-cli/-/@angular/compiler-cli-16.0.0-next.7.tgz#b99504ede7e4e3620dc5087b83a357ec8ad79aac"
-  integrity sha1-uZUE7efk42INxQh7g6NX7IrXmqw=
+"@angular/compiler-cli@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler-cli/-/@angular/compiler-cli-16.0.0.tgz#eadcbc65c82c90c663c57bd012f132480bcae218"
+  integrity sha1-6ty8ZcgskMZjxXvQEvEySAvK4hg=
   dependencies:
     "@babel/core" "7.19.3"
     "@jridgewell/sourcemap-codec" "^1.4.14"
@@ -263,45 +237,45 @@
     tslib "^2.3.0"
     yargs "^17.2.1"
 
-"@angular/compiler@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler/-/@angular/compiler-16.0.0-next.7.tgz#15058e4390defb5db094d64e1a2f9c9587691533"
-  integrity sha1-FQWOQ5De+12wlNZOGi+clYdpFTM=
+"@angular/compiler@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/compiler/-/@angular/compiler-16.0.0.tgz#9039e29e420ef119f02fb7ec9621bfc897679fac"
+  integrity sha1-kDninkIO8RnwL7fsliG/yJdnn6w=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/core/-/@angular/core-16.0.0-next.7.tgz#f1fca1309d4194ad8f6b5e4b0c06fc6737fbcd7e"
-  integrity sha1-8fyhMJ1BlK2Pa15LDAb8Zzf7zX4=
+"@angular/core@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/core/-/@angular/core-16.0.0.tgz#83b7187997c2a79d96fba5bf66b6d50d59a7939f"
+  integrity sha1-g7cYeZfCp52W+6W/ZrbVDVmnk58=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/forms@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/forms/-/@angular/forms-16.0.0-next.7.tgz#4f9ef2e86c60f1319242ceec009d66befc73a290"
-  integrity sha1-T57y6Gxg8TGSQs7sAJ1mvvxzopA=
+"@angular/forms@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/forms/-/@angular/forms-16.0.0.tgz#5f4b253660b06678068e5edf04d5583f4ceb2691"
+  integrity sha1-X0slNmCwZngGjl7fBNVYP0zrJpE=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser-dynamic@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser-dynamic/-/@angular/platform-browser-dynamic-16.0.0-next.7.tgz#619c48578c0e93f295963a79bc5085d4faa6887c"
-  integrity sha1-YZxIV4wOk/KVljp5vFCF1PqmiHw=
+"@angular/platform-browser-dynamic@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser-dynamic/-/@angular/platform-browser-dynamic-16.0.0.tgz#dca416f337d1aba7d0fc93ad982250585790b39b"
+  integrity sha1-3KQW8zfRq6fQ/JOtmCJQWFeQs5s=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser/-/@angular/platform-browser-16.0.0-next.7.tgz#30c280ebe1629d6e44d2b709bde4de8c46afef0e"
-  integrity sha1-MMKA6+FinW5E0rcJveTejEav7w4=
+"@angular/platform-browser@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/platform-browser/-/@angular/platform-browser-16.0.0.tgz#4e0d58c7e11ec7d6c188ea1d5bc8217318e566c7"
+  integrity sha1-Tg1Yx+Eex9bBiOodW8ghcxjlZsc=
   dependencies:
     tslib "^2.3.0"
 
-"@angular/router@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/router/-/@angular/router-16.0.0-next.7.tgz#085efdcb49d60c986c59ae1a9c501076e5021a9b"
-  integrity sha1-CF79y0nWDJhsWa4anFAQduUCGps=
+"@angular/router@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@angular/router/-/@angular/router-16.0.0.tgz#04b917ce68a51d187246974ebf6ffc6f5fa20e71"
+  integrity sha1-BLkXzmilHRhyRpdOv2/8b1+iDnE=
   dependencies:
     tslib "^2.3.0"
 
@@ -1285,220 +1259,110 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@discoveryjs/json-ext/-/@discoveryjs/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha1-HVcr+74Ut3BOC6Dzm3SBW4SHDXA=
 
-"@esbuild/android-arm64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm64/-/@esbuild/android-arm64-0.17.15.tgz#893ad71f3920ccb919e1757c387756a9bca2ef42"
-  integrity sha1-iTrXHzkgzLkZ4XV8OHdWqbyi70I=
-
 "@esbuild/android-arm64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm64/-/@esbuild/android-arm64-0.17.18.tgz#4aa8d8afcffb4458736ca9b32baa97d7cb5861ea"
   integrity sha1-SqjYr8/7RFhzbKmzK6qX18tYYeo=
-
-"@esbuild/android-arm@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm/-/@esbuild/android-arm-0.17.15.tgz#143e0d4e4c08c786ea410b9a7739779a9a1315d8"
-  integrity sha1-FD4NTkwIx4bqQQuadzl3mpoTFdg=
 
 "@esbuild/android-arm@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-arm/-/@esbuild/android-arm-0.17.18.tgz#74a7e95af4ee212ebc9db9baa87c06a594f2a427"
   integrity sha1-dKfpWvTuIS68nbm6qHwGpZTypCc=
 
-"@esbuild/android-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-x64/-/@esbuild/android-x64-0.17.15.tgz#d2d12a7676b2589864281b2274355200916540bc"
-  integrity sha1-0tEqdnayWJhkKBsidDVSAJFlQLw=
-
 "@esbuild/android-x64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/android-x64/-/@esbuild/android-x64-0.17.18.tgz#1dcd13f201997c9fe0b204189d3a0da4eb4eb9b6"
   integrity sha1-Hc0T8gGZfJ/gsgQYnToNpOtOubY=
-
-"@esbuild/darwin-arm64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-arm64/-/@esbuild/darwin-arm64-0.17.15.tgz#2e88e79f1d327a2a7d9d06397e5232eb0a473d61"
-  integrity sha1-Lojnnx0yeip9nQY5flIy6wpHPWE=
 
 "@esbuild/darwin-arm64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-arm64/-/@esbuild/darwin-arm64-0.17.18.tgz#444f3b961d4da7a89eb9bd35cfa4415141537c2a"
   integrity sha1-RE87lh1Np6ieub01z6RBUUFTfCo=
 
-"@esbuild/darwin-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-x64/-/@esbuild/darwin-x64-0.17.15.tgz#9384e64c0be91388c57be6d3a5eaf1c32a99c91d"
-  integrity sha1-k4TmTAvpE4jFe+bTperxwyqZyR0=
-
 "@esbuild/darwin-x64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/darwin-x64/-/@esbuild/darwin-x64-0.17.18.tgz#a6da308d0ac8a498c54d62e0b2bfb7119b22d315"
   integrity sha1-ptowjQrIpJjFTWLgsr+3EZsi0xU=
-
-"@esbuild/freebsd-arm64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-arm64/-/@esbuild/freebsd-arm64-0.17.15.tgz#2ad5a35bc52ebd9ca6b845dbc59ba39647a93c1a"
-  integrity sha1-KtWjW8UuvZymuEXbxZujlkepPBo=
 
 "@esbuild/freebsd-arm64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-arm64/-/@esbuild/freebsd-arm64-0.17.18.tgz#b83122bb468889399d0d63475d5aea8d6829c2c2"
   integrity sha1-uDEiu0aIiTmdDWNHXVrqjWgpwsI=
 
-"@esbuild/freebsd-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-x64/-/@esbuild/freebsd-x64-0.17.15.tgz#b513a48446f96c75fda5bef470e64d342d4379cd"
-  integrity sha1-tROkhEb5bHX9pb70cOZNNC1Dec0=
-
 "@esbuild/freebsd-x64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/freebsd-x64/-/@esbuild/freebsd-x64-0.17.18.tgz#af59e0e03fcf7f221b34d4c5ab14094862c9c864"
   integrity sha1-r1ng4D/PfyIbNNTFqxQJSGLJyGQ=
-
-"@esbuild/linux-arm64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm64/-/@esbuild/linux-arm64-0.17.15.tgz#9697b168175bfd41fa9cc4a72dd0d48f24715f31"
-  integrity sha1-lpexaBdb/UH6nMSnLdDUjyRxXzE=
 
 "@esbuild/linux-arm64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm64/-/@esbuild/linux-arm64-0.17.18.tgz#8551d72ba540c5bce4bab274a81c14ed01eafdcf"
   integrity sha1-hVHXK6VAxbzkurJ0qBwU7QHq/c8=
 
-"@esbuild/linux-arm@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm/-/@esbuild/linux-arm-0.17.15.tgz#5b22062c54f48cd92fab9ffd993732a52db70cd3"
-  integrity sha1-WyIGLFT0jNkvq5/9mTcypS23DNM=
-
 "@esbuild/linux-arm@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-arm/-/@esbuild/linux-arm-0.17.18.tgz#e09e76e526df4f665d4d2720d28ff87d15cdf639"
   integrity sha1-4J525SbfT2ZdTScg0o/4fRXN9jk=
-
-"@esbuild/linux-ia32@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ia32/-/@esbuild/linux-ia32-0.17.15.tgz#eb28a13f9b60b5189fcc9e98e1024f6b657ba54c"
-  integrity sha1-6yihP5tgtRifzJ6Y4QJPa2V7pUw=
 
 "@esbuild/linux-ia32@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ia32/-/@esbuild/linux-ia32-0.17.18.tgz#47878860ce4fe73a36fd8627f5647bcbbef38ba4"
   integrity sha1-R4eIYM5P5zo2/YYn9WR7y77zi6Q=
 
-"@esbuild/linux-loong64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-loong64/-/@esbuild/linux-loong64-0.17.15.tgz#32454bdfe144cf74b77895a8ad21a15cb81cfbe5"
-  integrity sha1-MkVL3+FEz3S3eJWorSGhXLgc++U=
-
 "@esbuild/linux-loong64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-loong64/-/@esbuild/linux-loong64-0.17.18.tgz#3f8fbf5267556fc387d20b2e708ce115de5c967a"
   integrity sha1-P4+/UmdVb8OH0gsucIzhFd5clno=
-
-"@esbuild/linux-mips64el@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-mips64el/-/@esbuild/linux-mips64el-0.17.15.tgz#af12bde0d775a318fad90eb13a0455229a63987c"
-  integrity sha1-rxK94Nd1oxj62Q6xOgRVIppjmHw=
 
 "@esbuild/linux-mips64el@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-mips64el/-/@esbuild/linux-mips64el-0.17.18.tgz#9d896d8f3c75f6c226cbeb840127462e37738226"
   integrity sha1-nYltjzx19sImy+uEASdGLjdzgiY=
 
-"@esbuild/linux-ppc64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ppc64/-/@esbuild/linux-ppc64-0.17.15.tgz#34c5ed145b2dfc493d3e652abac8bd3baa3865a5"
-  integrity sha1-NMXtFFst/Ek9PmUqusi9O6o4ZaU=
-
 "@esbuild/linux-ppc64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-ppc64/-/@esbuild/linux-ppc64-0.17.18.tgz#3d9deb60b2d32c9985bdc3e3be090d30b7472783"
   integrity sha1-PZ3rYLLTLJmFvcPjvgkNMLdHJ4M=
-
-"@esbuild/linux-riscv64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-riscv64/-/@esbuild/linux-riscv64-0.17.15.tgz#87bd515e837f2eb004b45f9e6a94dc5b93f22b92"
-  integrity sha1-h71RXoN/LrAEtF+eapTcW5PyK5I=
 
 "@esbuild/linux-riscv64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-riscv64/-/@esbuild/linux-riscv64-0.17.18.tgz#8a943cf13fd24ff7ed58aefb940ef178f93386bc"
   integrity sha1-ipQ88T/ST/ftWK77lA7xePkzhrw=
 
-"@esbuild/linux-s390x@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-s390x/-/@esbuild/linux-s390x-0.17.15.tgz#20bf7947197f199ddac2ec412029a414ceae3aa3"
-  integrity sha1-IL95Rxl/GZ3awuxBICmkFM6uOqM=
-
 "@esbuild/linux-s390x@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-s390x/-/@esbuild/linux-s390x-0.17.18.tgz#66cb01f4a06423e5496facabdce4f7cae7cb80e5"
   integrity sha1-ZssB9KBkI+VJb6yr3OT3yufLgOU=
-
-"@esbuild/linux-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-x64/-/@esbuild/linux-x64-0.17.15.tgz#31b93f9c94c195e852c20cd3d1914a68aa619124"
-  integrity sha1-Mbk/nJTBlehSwgzT0ZFKaKphkSQ=
 
 "@esbuild/linux-x64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/linux-x64/-/@esbuild/linux-x64-0.17.18.tgz#23c26050c6c5d1359c7b774823adc32b3883b6c9"
   integrity sha1-I8JgUMbF0TWce3dII63DKziDtsk=
 
-"@esbuild/netbsd-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/netbsd-x64/-/@esbuild/netbsd-x64-0.17.15.tgz#8da299b3ac6875836ca8cdc1925826498069ac65"
-  integrity sha1-jaKZs6xodYNsqM3BklgmSYBprGU=
-
 "@esbuild/netbsd-x64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/netbsd-x64/-/@esbuild/netbsd-x64-0.17.18.tgz#789a203d3115a52633ff6504f8cbf757f15e703b"
   integrity sha1-eJogPTEVpSYz/2UE+Mv3V/FecDs=
-
-"@esbuild/openbsd-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/openbsd-x64/-/@esbuild/openbsd-x64-0.17.15.tgz#04a1ec3d4e919714dba68dcf09eeb1228ad0d20c"
-  integrity sha1-BKHsPU6RlxTbpo3PCe6xIorQ0gw=
 
 "@esbuild/openbsd-x64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/openbsd-x64/-/@esbuild/openbsd-x64-0.17.18.tgz#d7b998a30878f8da40617a10af423f56f12a5e90"
   integrity sha1-17mYowh4+NpAYXoQr0I/VvEqXpA=
 
-"@esbuild/sunos-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/sunos-x64/-/@esbuild/sunos-x64-0.17.15.tgz#6694ebe4e16e5cd7dab6505ff7c28f9c1c695ce5"
-  integrity sha1-ZpTr5OFuXNfatlBf98KPnBxpXOU=
-
 "@esbuild/sunos-x64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/sunos-x64/-/@esbuild/sunos-x64-0.17.18.tgz#ecad0736aa7dae07901ba273db9ef3d3e93df31f"
   integrity sha1-7K0HNqp9rgeQG6Jz257z0+k98x8=
-
-"@esbuild/win32-arm64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-arm64/-/@esbuild/win32-arm64-0.17.15.tgz#1f95b2564193c8d1fee8f8129a0609728171d500"
-  integrity sha1-H5WyVkGTyNH+6PgSmgYJcoFx1QA=
 
 "@esbuild/win32-arm64@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-arm64/-/@esbuild/win32-arm64-0.17.18.tgz#58dfc177da30acf956252d7c8ae9e54e424887c4"
   integrity sha1-WN/Bd9owrPlWJS18iunlTkJIh8Q=
 
-"@esbuild/win32-ia32@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-ia32/-/@esbuild/win32-ia32-0.17.15.tgz#c362b88b3df21916ed7bcf75c6d09c6bf3ae354a"
-  integrity sha1-w2K4iz3yGRbte891xtCca/OuNUo=
-
 "@esbuild/win32-ia32@0.17.18":
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-ia32/-/@esbuild/win32-ia32-0.17.18.tgz#340f6163172b5272b5ae60ec12c312485f69232b"
   integrity sha1-NA9hYxcrUnK1rmDsEsMSSF9pIys=
-
-"@esbuild/win32-x64@0.17.15":
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@esbuild/win32-x64/-/@esbuild/win32-x64-0.17.15.tgz#c2e737f3a201ebff8e2ac2b8e9f246b397ad19b8"
-  integrity sha1-wuc386IB6/+OKsK46fJGs5etGbg=
 
 "@esbuild/win32-x64@0.17.18":
   version "0.17.18"
@@ -1577,14 +1441,6 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@istanbuljs/schema/-/@istanbuljs/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha1-5F44TkuOwWvOL9kDr3hFD2v37Jg=
 
-"@jridgewell/gen-mapping@^0.1.0":
-  version "0.1.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@jridgewell/gen-mapping/-/@jridgewell/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
-  integrity sha1-5dLkUDBqlJHjvXfjI+ONev8xWZY=
-  dependencies:
-    "@jridgewell/set-array" "^1.0.0"
-    "@jridgewell/sourcemap-codec" "^1.4.10"
-
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@jridgewell/gen-mapping/-/@jridgewell/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"
@@ -1599,7 +1455,7 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@jridgewell/resolve-uri/-/@jridgewell/resolve-uri-3.1.0.tgz#2203b118c157721addfe69d47b70465463066d78"
   integrity sha1-IgOxGMFXchrd/mnUe3BGVGMGbXg=
 
-"@jridgewell/set-array@^1.0.0", "@jridgewell/set-array@^1.0.1":
+"@jridgewell/set-array@^1.0.1":
   version "1.1.2"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@jridgewell/set-array/-/@jridgewell/set-array-1.1.2.tgz#7c6cf998d6d20b914c0a55a91ae928ff25965e72"
   integrity sha1-fGz5mNbSC5FMClWpGuko/yWWXnI=
@@ -1635,10 +1491,10 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@leichtgewicht/ip-codec/-/@leichtgewicht/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha1-sqxibWy5yHGKtFkWbUu0Bbj/p4s=
 
-"@ngtools/webpack@16.0.0-next.7":
-  version "16.0.0-next.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@ngtools/webpack/-/@ngtools/webpack-16.0.0-next.7.tgz#63ad4d55f5374b0830e9b0333f276d17a58e261a"
-  integrity sha1-Y61NVfU3Swgw6bAzPydtF6WOJho=
+"@ngtools/webpack@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@ngtools/webpack/-/@ngtools/webpack-16.0.0.tgz#10ac32881ca8fbd66354a693d03326e048a56f5f"
+  integrity sha1-EKwyiByo+9ZjVKaT0DMm4Eilb18=
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1734,13 +1590,13 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@pkgjs/parseargs/-/@pkgjs/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha1-p36nQvqyV3UUVDTrHSMoz1ATrDM=
 
-"@schematics/angular@15.2.7":
-  version "15.2.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@schematics/angular/-/@schematics/angular-15.2.7.tgz#07a6f977f9902ac2d0f99be26c19784bbf578fd0"
-  integrity sha1-B6b5d/mQKsLQ+ZvibBl4S79Xj9A=
+"@schematics/angular@16.0.0":
+  version "16.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@schematics/angular/-/@schematics/angular-16.0.0.tgz#2a2b85711309eb11d8748b0b97b2fac1bf0fbe3a"
+  integrity sha1-KiuFcRMJ6xHYdIsLl7L6wb8Pvjo=
   dependencies:
-    "@angular-devkit/core" "15.2.7"
-    "@angular-devkit/schematics" "15.2.7"
+    "@angular-devkit/core" "16.0.0"
+    "@angular-devkit/schematics" "16.0.0"
     jsonc-parser "3.2.0"
 
 "@sigstore/protobuf-specs@^0.1.0":
@@ -1829,15 +1685,10 @@
     "@types/estree" "*"
     "@types/json-schema" "*"
 
-"@types/estree@*":
+"@types/estree@*", "@types/estree@^1.0.0":
   version "1.0.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@types/estree/-/@types/estree-1.0.1.tgz#aa22750962f3bf0e79d753d3cc067f010c95f194"
   integrity sha1-qiJ1CWLzvw5511PTzAZ/AQyV8ZQ=
-
-"@types/estree@^0.0.51":
-  version "0.0.51"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@types/estree/-/@types/estree-0.0.51.tgz#cfd70924a25a3fd32b218e5e420e6897e1ac4f40"
-  integrity sha1-z9cJJKJaP9MrIY5eQg5ol+GsT0A=
 
 "@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.33":
   version "4.17.34"
@@ -2036,125 +1887,125 @@
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@vitejs/plugin-basic-ssl/-/@vitejs/plugin-basic-ssl-1.0.1.tgz#48c46eab21e0730921986ce742563ae83fe7fe34"
   integrity sha1-SMRuqyHgcwkhmGznQlY66D/n/jQ=
 
-"@webassemblyjs/ast@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/ast/-/@webassemblyjs/ast-1.11.1.tgz#2bfd767eae1a6996f432ff7e8d7fc75679c0b6a7"
-  integrity sha1-K/12fq4aaZb0Mv9+jX/HVnnAtqc=
+"@webassemblyjs/ast@1.11.5", "@webassemblyjs/ast@^1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/ast/-/@webassemblyjs/ast-1.11.5.tgz#6e818036b94548c1fb53b754b5cae3c9b208281c"
+  integrity sha1-boGANrlFSMH7U7dUtcrjybIIKBw=
   dependencies:
-    "@webassemblyjs/helper-numbers" "1.11.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.11.1"
+    "@webassemblyjs/helper-numbers" "1.11.5"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.5"
 
-"@webassemblyjs/floating-point-hex-parser@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/floating-point-hex-parser/-/@webassemblyjs/floating-point-hex-parser-1.11.1.tgz#f6c61a705f0fd7a6aecaa4e8198f23d9dc179e4f"
-  integrity sha1-9sYacF8P16auyqToGY8j2dwXnk8=
+"@webassemblyjs/floating-point-hex-parser@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/floating-point-hex-parser/-/@webassemblyjs/floating-point-hex-parser-1.11.5.tgz#e85dfdb01cad16b812ff166b96806c050555f1b4"
+  integrity sha1-6F39sBytFrgS/xZrloBsBQVV8bQ=
 
-"@webassemblyjs/helper-api-error@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-api-error/-/@webassemblyjs/helper-api-error-1.11.1.tgz#1a63192d8788e5c012800ba6a7a46c705288fd16"
-  integrity sha1-GmMZLYeI5cASgAump6RscFKI/RY=
+"@webassemblyjs/helper-api-error@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-api-error/-/@webassemblyjs/helper-api-error-1.11.5.tgz#1e82fa7958c681ddcf4eabef756ce09d49d442d1"
+  integrity sha1-HoL6eVjGgd3PTqvvdWzgnUnUQtE=
 
-"@webassemblyjs/helper-buffer@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-buffer/-/@webassemblyjs/helper-buffer-1.11.1.tgz#832a900eb444884cde9a7cad467f81500f5e5ab5"
-  integrity sha1-gyqQDrREiEzemnytRn+BUA9eWrU=
+"@webassemblyjs/helper-buffer@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-buffer/-/@webassemblyjs/helper-buffer-1.11.5.tgz#91381652ea95bb38bbfd270702351c0c89d69fba"
+  integrity sha1-kTgWUuqVuzi7/ScHAjUcDInWn7o=
 
-"@webassemblyjs/helper-numbers@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-numbers/-/@webassemblyjs/helper-numbers-1.11.1.tgz#64d81da219fbbba1e3bd1bfc74f6e8c4e10a62ae"
-  integrity sha1-ZNgdohn7u6HjvRv8dPboxOEKYq4=
+"@webassemblyjs/helper-numbers@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-numbers/-/@webassemblyjs/helper-numbers-1.11.5.tgz#23380c910d56764957292839006fecbe05e135a9"
+  integrity sha1-IzgMkQ1WdklXKSg5AG/svgXhNak=
   dependencies:
-    "@webassemblyjs/floating-point-hex-parser" "1.11.1"
-    "@webassemblyjs/helper-api-error" "1.11.1"
+    "@webassemblyjs/floating-point-hex-parser" "1.11.5"
+    "@webassemblyjs/helper-api-error" "1.11.5"
     "@xtuc/long" "4.2.2"
 
-"@webassemblyjs/helper-wasm-bytecode@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-wasm-bytecode/-/@webassemblyjs/helper-wasm-bytecode-1.11.1.tgz#f328241e41e7b199d0b20c18e88429c4433295e1"
-  integrity sha1-8ygkHkHnsZnQsgwY6IQpxEMyleE=
+"@webassemblyjs/helper-wasm-bytecode@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-wasm-bytecode/-/@webassemblyjs/helper-wasm-bytecode-1.11.5.tgz#e258a25251bc69a52ef817da3001863cc1c24b9f"
+  integrity sha1-4liiUlG8aaUu+BfaMAGGPMHCS58=
 
-"@webassemblyjs/helper-wasm-section@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-wasm-section/-/@webassemblyjs/helper-wasm-section-1.11.1.tgz#21ee065a7b635f319e738f0dd73bfbda281c097a"
-  integrity sha1-Ie4GWntjXzGec48N1zv72igcCXo=
+"@webassemblyjs/helper-wasm-section@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/helper-wasm-section/-/@webassemblyjs/helper-wasm-section-1.11.5.tgz#966e855a6fae04d5570ad4ec87fbcf29b42ba78e"
+  integrity sha1-lm6FWm+uBNVXCtTsh/vPKbQrp44=
   dependencies:
-    "@webassemblyjs/ast" "1.11.1"
-    "@webassemblyjs/helper-buffer" "1.11.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.11.1"
-    "@webassemblyjs/wasm-gen" "1.11.1"
+    "@webassemblyjs/ast" "1.11.5"
+    "@webassemblyjs/helper-buffer" "1.11.5"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.5"
+    "@webassemblyjs/wasm-gen" "1.11.5"
 
-"@webassemblyjs/ieee754@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/ieee754/-/@webassemblyjs/ieee754-1.11.1.tgz#963929e9bbd05709e7e12243a099180812992614"
-  integrity sha1-ljkp6bvQVwnn4SJDoJkYCBKZJhQ=
+"@webassemblyjs/ieee754@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/ieee754/-/@webassemblyjs/ieee754-1.11.5.tgz#b2db1b33ce9c91e34236194c2b5cba9b25ca9d60"
+  integrity sha1-stsbM86ckeNCNhlMK1y6myXKnWA=
   dependencies:
     "@xtuc/ieee754" "^1.2.0"
 
-"@webassemblyjs/leb128@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/leb128/-/@webassemblyjs/leb128-1.11.1.tgz#ce814b45574e93d76bae1fb2644ab9cdd9527aa5"
-  integrity sha1-zoFLRVdOk9drrh+yZEq5zdlSeqU=
+"@webassemblyjs/leb128@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/leb128/-/@webassemblyjs/leb128-1.11.5.tgz#482e44d26b6b949edf042a8525a66c649e38935a"
+  integrity sha1-SC5E0mtrlJ7fBCqFJaZsZJ44k1o=
   dependencies:
     "@xtuc/long" "4.2.2"
 
-"@webassemblyjs/utf8@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/utf8/-/@webassemblyjs/utf8-1.11.1.tgz#d1f8b764369e7c6e6bae350e854dec9a59f0a3ff"
-  integrity sha1-0fi3ZDaefG5rrjUOhU3smlnwo/8=
+"@webassemblyjs/utf8@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/utf8/-/@webassemblyjs/utf8-1.11.5.tgz#83bef94856e399f3740e8df9f63bc47a987eae1a"
+  integrity sha1-g775SFbjmfN0Do359jvEeph+rho=
 
-"@webassemblyjs/wasm-edit@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-edit/-/@webassemblyjs/wasm-edit-1.11.1.tgz#ad206ebf4bf95a058ce9880a8c092c5dec8193d6"
-  integrity sha1-rSBuv0v5WgWM6YgKjAksXeyBk9Y=
+"@webassemblyjs/wasm-edit@^1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-edit/-/@webassemblyjs/wasm-edit-1.11.5.tgz#93ee10a08037657e21c70de31c47fdad6b522b2d"
+  integrity sha1-k+4QoIA3ZX4hxw3jHEf9rWtSKy0=
   dependencies:
-    "@webassemblyjs/ast" "1.11.1"
-    "@webassemblyjs/helper-buffer" "1.11.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.11.1"
-    "@webassemblyjs/helper-wasm-section" "1.11.1"
-    "@webassemblyjs/wasm-gen" "1.11.1"
-    "@webassemblyjs/wasm-opt" "1.11.1"
-    "@webassemblyjs/wasm-parser" "1.11.1"
-    "@webassemblyjs/wast-printer" "1.11.1"
+    "@webassemblyjs/ast" "1.11.5"
+    "@webassemblyjs/helper-buffer" "1.11.5"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.5"
+    "@webassemblyjs/helper-wasm-section" "1.11.5"
+    "@webassemblyjs/wasm-gen" "1.11.5"
+    "@webassemblyjs/wasm-opt" "1.11.5"
+    "@webassemblyjs/wasm-parser" "1.11.5"
+    "@webassemblyjs/wast-printer" "1.11.5"
 
-"@webassemblyjs/wasm-gen@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-gen/-/@webassemblyjs/wasm-gen-1.11.1.tgz#86c5ea304849759b7d88c47a32f4f039ae3c8f76"
-  integrity sha1-hsXqMEhJdZt9iMR6MvTwOa48j3Y=
+"@webassemblyjs/wasm-gen@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-gen/-/@webassemblyjs/wasm-gen-1.11.5.tgz#ceb1c82b40bf0cf67a492c53381916756ef7f0b1"
+  integrity sha1-zrHIK0C/DPZ6SSxTOBkWdW738LE=
   dependencies:
-    "@webassemblyjs/ast" "1.11.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.11.1"
-    "@webassemblyjs/ieee754" "1.11.1"
-    "@webassemblyjs/leb128" "1.11.1"
-    "@webassemblyjs/utf8" "1.11.1"
+    "@webassemblyjs/ast" "1.11.5"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.5"
+    "@webassemblyjs/ieee754" "1.11.5"
+    "@webassemblyjs/leb128" "1.11.5"
+    "@webassemblyjs/utf8" "1.11.5"
 
-"@webassemblyjs/wasm-opt@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-opt/-/@webassemblyjs/wasm-opt-1.11.1.tgz#657b4c2202f4cf3b345f8a4c6461c8c2418985f2"
-  integrity sha1-ZXtMIgL0zzs0X4pMZGHIwkGJhfI=
+"@webassemblyjs/wasm-opt@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-opt/-/@webassemblyjs/wasm-opt-1.11.5.tgz#b52bac29681fa62487e16d3bb7f0633d5e62ca0a"
+  integrity sha1-tSusKWgfpiSH4W07t/BjPV5iygo=
   dependencies:
-    "@webassemblyjs/ast" "1.11.1"
-    "@webassemblyjs/helper-buffer" "1.11.1"
-    "@webassemblyjs/wasm-gen" "1.11.1"
-    "@webassemblyjs/wasm-parser" "1.11.1"
+    "@webassemblyjs/ast" "1.11.5"
+    "@webassemblyjs/helper-buffer" "1.11.5"
+    "@webassemblyjs/wasm-gen" "1.11.5"
+    "@webassemblyjs/wasm-parser" "1.11.5"
 
-"@webassemblyjs/wasm-parser@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-parser/-/@webassemblyjs/wasm-parser-1.11.1.tgz#86ca734534f417e9bd3c67c7a1c75d8be41fb199"
-  integrity sha1-hspzRTT0F+m9PGfHocddi+QfsZk=
+"@webassemblyjs/wasm-parser@1.11.5", "@webassemblyjs/wasm-parser@^1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wasm-parser/-/@webassemblyjs/wasm-parser-1.11.5.tgz#7ba0697ca74c860ea13e3ba226b29617046982e2"
+  integrity sha1-e6BpfKdMhg6hPjuiJrKWFwRpguI=
   dependencies:
-    "@webassemblyjs/ast" "1.11.1"
-    "@webassemblyjs/helper-api-error" "1.11.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.11.1"
-    "@webassemblyjs/ieee754" "1.11.1"
-    "@webassemblyjs/leb128" "1.11.1"
-    "@webassemblyjs/utf8" "1.11.1"
+    "@webassemblyjs/ast" "1.11.5"
+    "@webassemblyjs/helper-api-error" "1.11.5"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.5"
+    "@webassemblyjs/ieee754" "1.11.5"
+    "@webassemblyjs/leb128" "1.11.5"
+    "@webassemblyjs/utf8" "1.11.5"
 
-"@webassemblyjs/wast-printer@1.11.1":
-  version "1.11.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wast-printer/-/@webassemblyjs/wast-printer-1.11.1.tgz#d0c73beda8eec5426f10ae8ef55cee5e7084c2f0"
-  integrity sha1-0Mc77ajuxUJvEK6O9VzuXnCEwvA=
+"@webassemblyjs/wast-printer@1.11.5":
+  version "1.11.5"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/@webassemblyjs/wast-printer/-/@webassemblyjs/wast-printer-1.11.5.tgz#7a5e9689043f3eca82d544d7be7a8e6373a6fa98"
+  integrity sha1-el6WiQQ/PsqC1UTXvnqOY3Om+pg=
   dependencies:
-    "@webassemblyjs/ast" "1.11.1"
+    "@webassemblyjs/ast" "1.11.5"
     "@xtuc/long" "4.2.2"
 
 "@xtuc/ieee754@^1.2.0":
@@ -2609,16 +2460,16 @@ bytes@3.1.2:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
   integrity sha1-iwvuuYYFrfGxKPpDhkA8AJ4CIaU=
 
-cacache@17.0.4:
-  version "17.0.4"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/cacache/-/cacache-17.0.4.tgz#5023ed892ba8843e3b7361c26d0ada37e146290c"
-  integrity sha1-UCPtiSuohD47c2HCbQraN+FGKQw=
+cacache@17.0.6, cacache@^17.0.0:
+  version "17.0.6"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/cacache/-/cacache-17.0.6.tgz#faf9739a067e6dcfd31316df82fdf7e1ec460373"
+  integrity sha1-+vlzmgZ+bc/TExbfgv334exGA3M=
   dependencies:
     "@npmcli/fs" "^3.1.0"
     fs-minipass "^3.0.0"
-    glob "^8.0.1"
+    glob "^10.2.2"
     lru-cache "^7.7.1"
-    minipass "^4.0.0"
+    minipass "^5.0.0"
     minipass-collect "^1.0.2"
     minipass-flush "^1.0.5"
     minipass-pipeline "^1.2.4"
@@ -2651,25 +2502,6 @@ cacache@^16.1.0:
     ssri "^9.0.0"
     tar "^6.1.11"
     unique-filename "^2.0.0"
-
-cacache@^17.0.0:
-  version "17.0.6"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/cacache/-/cacache-17.0.6.tgz#faf9739a067e6dcfd31316df82fdf7e1ec460373"
-  integrity sha1-+vlzmgZ+bc/TExbfgv334exGA3M=
-  dependencies:
-    "@npmcli/fs" "^3.1.0"
-    fs-minipass "^3.0.0"
-    glob "^10.2.2"
-    lru-cache "^7.7.1"
-    minipass "^5.0.0"
-    minipass-collect "^1.0.2"
-    minipass-flush "^1.0.5"
-    minipass-pipeline "^1.2.4"
-    p-map "^4.0.0"
-    promise-inflight "^1.0.1"
-    ssri "^10.0.0"
-    tar "^6.1.11"
-    unique-filename "^3.0.0"
 
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
@@ -3298,7 +3130,7 @@ engine.io@~6.4.1:
     engine.io-parser "~5.0.3"
     ws "~8.11.0"
 
-enhanced-resolve@^5.10.0:
+enhanced-resolve@^5.13.0:
   version "5.13.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/enhanced-resolve/-/enhanced-resolve-5.13.0.tgz#26d1ecc448c02de997133217b5c1053f34a0a275"
   integrity sha1-JtHsxEjALemXEzIXtcEFPzSgonU=
@@ -3360,45 +3192,17 @@ es-get-iterator@^1.1.3:
     isarray "^2.0.5"
     stop-iteration-iterator "^1.0.0"
 
-es-module-lexer@^0.9.0:
-  version "0.9.3"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/es-module-lexer/-/es-module-lexer-0.9.3.tgz#6f13db00cc38417137daf74366f535c8eb438f19"
-  integrity sha1-bxPbAMw4QXE32vdDZvU1yOtDjxk=
+es-module-lexer@^1.2.1:
+  version "1.2.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/es-module-lexer/-/es-module-lexer-1.2.1.tgz#ba303831f63e6a394983fde2f97ad77b22324527"
+  integrity sha1-ujA4MfY+ajlJg/3i+XrXeyIyRSc=
 
-esbuild-wasm@0.17.15:
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild-wasm/-/esbuild-wasm-0.17.15.tgz#e8c9c9d46bd6a0c1ed100cf85c4265f3c9b14cac"
-  integrity sha1-6MnJ1GvWoMHtEAz4XEJl88mxTKw=
+esbuild-wasm@0.17.18:
+  version "0.17.18"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild-wasm/-/esbuild-wasm-0.17.18.tgz#4d922c509eccfc33f7969c880a520e5e665681ef"
+  integrity sha1-TZIsUJ7M/DP3lpyIClIOXmZWge8=
 
-esbuild@0.17.15:
-  version "0.17.15"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild/-/esbuild-0.17.15.tgz#209ebc87cb671ffb79574db93494b10ffaf43cbc"
-  integrity sha1-IJ68h8tnH/t5V025NJSxD/r0PLw=
-  optionalDependencies:
-    "@esbuild/android-arm" "0.17.15"
-    "@esbuild/android-arm64" "0.17.15"
-    "@esbuild/android-x64" "0.17.15"
-    "@esbuild/darwin-arm64" "0.17.15"
-    "@esbuild/darwin-x64" "0.17.15"
-    "@esbuild/freebsd-arm64" "0.17.15"
-    "@esbuild/freebsd-x64" "0.17.15"
-    "@esbuild/linux-arm" "0.17.15"
-    "@esbuild/linux-arm64" "0.17.15"
-    "@esbuild/linux-ia32" "0.17.15"
-    "@esbuild/linux-loong64" "0.17.15"
-    "@esbuild/linux-mips64el" "0.17.15"
-    "@esbuild/linux-ppc64" "0.17.15"
-    "@esbuild/linux-riscv64" "0.17.15"
-    "@esbuild/linux-s390x" "0.17.15"
-    "@esbuild/linux-x64" "0.17.15"
-    "@esbuild/netbsd-x64" "0.17.15"
-    "@esbuild/openbsd-x64" "0.17.15"
-    "@esbuild/sunos-x64" "0.17.15"
-    "@esbuild/win32-arm64" "0.17.15"
-    "@esbuild/win32-ia32" "0.17.15"
-    "@esbuild/win32-x64" "0.17.15"
-
-esbuild@^0.17.5:
+esbuild@0.17.18, esbuild@^0.17.5:
   version "0.17.18"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/esbuild/-/esbuild-0.17.18.tgz#f4f8eb6d77384d68cd71c53eb6601c7efe05e746"
   integrity sha1-9PjrbXc4TWjNccU+tmAcfv4F50Y=
@@ -4311,10 +4115,10 @@ inherits@2.0.3:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-ini@3.0.1:
-  version "3.0.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/ini/-/ini-3.0.1.tgz#c76ec81007875bc44d544ff7a11a55d12294102d"
-  integrity sha1-x27IEAeHW8RNVE/3oRpV0SKUEC0=
+ini@4.0.0:
+  version "4.0.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/ini/-/ini-4.0.0.tgz#35b4b0ba3bb9a3feb8c50dbf92fb1671efda88eb"
+  integrity sha1-NbSwuju5o/64xQ2/kvsWce/aiOs=
 
 inquirer@8.2.4:
   version "8.2.4"
@@ -4410,7 +4214,7 @@ is-callable@^1.1.3:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/is-callable/-/is-callable-1.2.7.tgz#3bc2a85ea742d9e36205dcacdd72ca1fdc51b055"
   integrity sha1-O8KoXqdC2eNiBdys3XLKH9xRsFU=
 
-is-core-module@^2.11.0, is-core-module@^2.8.1, is-core-module@^2.9.0:
+is-core-module@^2.11.0, is-core-module@^2.8.1:
   version "2.12.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/is-core-module/-/is-core-module-2.12.0.tgz#36ad62f6f73c8253fd6472517a12483cf03e7ec4"
   integrity sha1-Nq1i9vc8glP9ZHJRehJIPPA+fsQ=
@@ -5026,13 +4830,6 @@ lru-cache@^9.0.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/lru-cache/-/lru-cache-9.1.1.tgz#c58a93de58630b688de39ad04ef02ef26f1902f1"
   integrity sha1-xYqT3lhjC2iN45rQTvAu8m8ZAvE=
 
-magic-string@0.29.0:
-  version "0.29.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/magic-string/-/magic-string-0.29.0.tgz#f034f79f8c43dba4ae1730ffb5e8c4e084b16cf3"
-  integrity sha1-8DT3n4xD26SuFzD/tejE4ISxbPM=
-  dependencies:
-    "@jridgewell/sourcemap-codec" "^1.4.13"
-
 magic-string@0.30.0:
   version "0.30.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/magic-string/-/magic-string-0.30.0.tgz#fd58a4748c5c4547338a424e90fa5dd17f4de529"
@@ -5310,6 +5107,11 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
 
+mrmime@1.0.1:
+  version "1.0.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/mrmime/-/mrmime-1.0.1.tgz#5f90c825fad4bdd41dc914eff5d1a8cfdaf24f27"
+  integrity sha1-X5DIJfrUvdQdyRTv9dGoz9ryTyc=
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -5338,7 +5140,7 @@ mute-stream@0.0.8:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha1-FjDEKyJR/4HiooPelqVJfqkuXg0=
 
-nanoid@^3.3.4, nanoid@^3.3.6:
+nanoid@^3.3.6:
   version "3.3.6"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha1-RDOAyFbW6fmCQmfZYLQjatWD6kw=
@@ -5618,15 +5420,6 @@ onetime@^6.0.0:
   dependencies:
     mimic-fn "^4.0.0"
 
-open@8.4.1:
-  version "8.4.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/open/-/open-8.4.1.tgz#2ab3754c07f5d1f99a7a8d6a82737c95e3101cff"
-  integrity sha1-KrN1TAf10fmaeo1qgnN8leMQHP8=
-  dependencies:
-    define-lazy-prop "^2.0.0"
-    is-docker "^2.1.1"
-    is-wsl "^2.2.0"
-
 open@8.4.2, open@^8.0.9:
   version "8.4.2"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/open/-/open-8.4.2.tgz#5b5ffe2a8f793dcd2aad73e550cb87b59cb084f9"
@@ -5716,10 +5509,10 @@ p-try@^2.0.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
 
-pacote@15.1.0:
-  version "15.1.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/pacote/-/pacote-15.1.0.tgz#2e0b12a4f55ffd801a8134a1ae28ef361dc3f243"
-  integrity sha1-LgsSpPVf/YAagTShrijvNh3D8kM=
+pacote@15.1.3:
+  version "15.1.3"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/pacote/-/pacote-15.1.3.tgz#4c0e7fb5e7ab3b27fb3f86514b451ad4c4f64e9d"
+  integrity sha1-TA5/teerOyf7P4ZRS0Ua1MT2Tp0=
   dependencies:
     "@npmcli/git" "^4.0.0"
     "@npmcli/installed-package-contents" "^2.0.1"
@@ -5727,7 +5520,7 @@ pacote@15.1.0:
     "@npmcli/run-script" "^6.0.0"
     cacache "^17.0.0"
     fs-minipass "^3.0.0"
-    minipass "^4.0.0"
+    minipass "^5.0.0"
     npm-package-arg "^10.0.0"
     npm-packlist "^7.0.0"
     npm-pick-manifest "^8.0.0"
@@ -5736,7 +5529,7 @@ pacote@15.1.0:
     promise-retry "^2.0.1"
     read-package-json "^6.0.0"
     read-package-json-fast "^3.0.0"
-    sigstore "^1.0.0"
+    sigstore "^1.3.0"
     ssri "^10.0.0"
     tar "^6.1.11"
 
@@ -5888,10 +5681,10 @@ pkg-dir@^4.1.0:
   dependencies:
     find-up "^4.0.0"
 
-postcss-loader@7.2.3:
-  version "7.2.3"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss-loader/-/postcss-loader-7.2.3.tgz#c2d491a769102e0aac228d53fb1ad376cc158bb2"
-  integrity sha1-wtSRp2kQLgqsIo1T+xrTdswVi7I=
+postcss-loader@7.2.4:
+  version "7.2.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss-loader/-/postcss-loader-7.2.4.tgz#2884f4ca172de633b2cf1f93dc852968f0632ba9"
+  integrity sha1-KIT0yhct5jOyzx+T3IUpaPBjK6k=
   dependencies:
     cosmiconfig "^8.1.3"
     cosmiconfig-typescript-loader "^4.3.0"
@@ -5939,16 +5732,7 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha1-cjwJkgg2um0+WvAZ+SvAlxwC5RQ=
 
-postcss@8.4.21:
-  version "8.4.21"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
-  integrity sha1-xjm3GaV+/DGHsToddlZ1SF9BNPQ=
-  dependencies:
-    nanoid "^3.3.4"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
-
-postcss@^8.2.14, postcss@^8.3.7, postcss@^8.4.19, postcss@^8.4.21:
+postcss@8.4.23, postcss@^8.2.14, postcss@^8.3.7, postcss@^8.4.19, postcss@^8.4.21:
   version "8.4.23"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/postcss/-/postcss-8.4.23.tgz#df0aee9ac7c5e53e1075c24a3613496f9e6552ab"
   integrity sha1-3wrumsfF5T4QdcJKNhNJb55lUqs=
@@ -6207,16 +5991,7 @@ resolve-url-loader@5.0.0:
     postcss "^8.2.14"
     source-map "0.6.1"
 
-resolve@1.22.1:
-  version "1.22.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/resolve/-/resolve-1.22.1.tgz#27cb2ebb53f91abb49470a928bba7558066ac177"
-  integrity sha1-J8suu1P5GrtJRwqSi7p1WAZqwXc=
-  dependencies:
-    is-core-module "^2.9.0"
-    path-parse "^1.0.7"
-    supports-preserve-symlinks-flag "^1.0.0"
-
-resolve@^1.14.2, resolve@^1.22.1:
+resolve@1.22.2, resolve@^1.14.2:
   version "1.22.2"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/resolve/-/resolve-1.22.2.tgz#0ed0943d4e301867955766c9f3e1ae6d01c6845f"
   integrity sha1-DtCUPU4wGGeVV2bJ8+GubQHGhF8=
@@ -6260,10 +6035,10 @@ rimraf@^3.0.0, rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rollup@^3.18.0:
-  version "3.21.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/rollup/-/rollup-3.21.1.tgz#d56f32ee041383b60909e3d3195b54b69912dbb0"
-  integrity sha1-1W8y7gQTg7YJCePTGVtUtpkS27A=
+rollup@^3.20.2:
+  version "3.21.4"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/rollup/-/rollup-3.21.4.tgz#61af40f1d48d0d04fb20114af73db7367f7151fa"
+  integrity sha1-Ya9A8dSNDQT7IBFK9z23Nn9xUfo=
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -6279,21 +6054,7 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@6.6.7:
-  version "6.6.7"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
-  integrity sha1-kKwBisq/SRv2UEQjXVhjxNq4BMk=
-  dependencies:
-    tslib "^1.9.0"
-
-rxjs@7.8.0:
-  version "7.8.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/rxjs/-/rxjs-7.8.0.tgz#90a938862a82888ff4c7359811a595e14e1e09a4"
-  integrity sha1-kKk4hiqCiI/0xzWYEaWV4U4eCaQ=
-  dependencies:
-    tslib "^2.1.0"
-
-rxjs@^7.5.5, rxjs@^7.8.0:
+rxjs@7.8.1, rxjs@^7.5.5, rxjs@^7.8.0:
   version "7.8.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/rxjs/-/rxjs-7.8.1.tgz#6f6f3d99ea8044291efd92e7c7fcf562c4057543"
   integrity sha1-b289meqARCke/ZLnx/z1YsQFdUM=
@@ -6330,10 +6091,10 @@ sass-loader@13.2.2:
     klona "^2.0.6"
     neo-async "^2.6.2"
 
-sass@1.60.0:
-  version "1.60.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sass/-/sass-1.60.0.tgz#657f0c23a302ac494b09a5ba8497b739fb5b5a81"
-  integrity sha1-ZX8MI6MCrElLCaW6hJe3OftbWoE=
+sass@1.62.1:
+  version "1.62.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sass/-/sass-1.62.1.tgz#caa8d6bf098935bc92fc73fa169fb3790cacd029"
+  integrity sha1-yqjWvwmJNbyS/HP6Fp+zeQys0Ck=
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -6344,7 +6105,7 @@ sax@^1.2.4:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
 
-schema-utils@^3.1.0, schema-utils@^3.1.1:
+schema-utils@^3.1.1, schema-utils@^3.1.2:
   version "3.1.2"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/schema-utils/-/schema-utils-3.1.2.tgz#36c10abca6f7577aeae136c804b0c741edeadc99"
   integrity sha1-NsEKvKb3V3rq4TbIBLDHQe3q3Jk=
@@ -6375,10 +6136,10 @@ selfsigned@^2.1.1:
   dependencies:
     node-forge "^1"
 
-semver@7.3.8:
-  version "7.3.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
-  integrity sha1-B6eP6vs/ezI0fXJeM95+Ki32d5g=
+semver@7.4.0:
+  version "7.4.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/semver/-/semver-7.4.0.tgz#8481c92feffc531ab1e012a8ffc15bdd3a0f4318"
+  integrity sha1-hIHJL+/8Uxqx4BKo/8Fb3ToPQxg=
   dependencies:
     lru-cache "^6.0.0"
 
@@ -6506,7 +6267,7 @@ signal-exit@^4.0.1:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/signal-exit/-/signal-exit-4.0.1.tgz#96a61033896120ec9335d96851d902cc98f0ba2a"
   integrity sha1-lqYQM4lhIOyTNdloUdkCzJjwuio=
 
-sigstore@^1.0.0:
+sigstore@^1.3.0:
   version "1.4.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/sigstore/-/sigstore-1.4.0.tgz#2e3a28c08b1b8246744c27cfb179c525c3f164d8"
   integrity sha1-LjoowIsbgkZ0TCfPsXnFJcPxZNg=
@@ -6849,7 +6610,7 @@ tar@^6.1.11, tar@^6.1.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-terser-webpack-plugin@^5.1.3:
+terser-webpack-plugin@^5.3.7:
   version "5.3.7"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/terser-webpack-plugin/-/terser-webpack-plugin-5.3.7.tgz#ef760632d24991760f339fe9290deb936ad1ffc7"
   integrity sha1-73YGMtJJkXYPM5/pKQ3rk2rR/8c=
@@ -6860,17 +6621,7 @@ terser-webpack-plugin@^5.1.3:
     serialize-javascript "^6.0.1"
     terser "^5.16.5"
 
-terser@5.16.8:
-  version "5.16.8"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/terser/-/terser-5.16.8.tgz#ccde583dabe71df3f4ed02b65eb6532e0fae15d5"
-  integrity sha1-zN5YPavnHfP07QK2XrZTLg+uFdU=
-  dependencies:
-    "@jridgewell/source-map" "^0.3.2"
-    acorn "^8.5.0"
-    commander "^2.20.0"
-    source-map-support "~0.5.20"
-
-terser@^5.16.5:
+terser@5.17.1, terser@^5.16.5:
   version "5.17.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/terser/-/terser-5.17.1.tgz#948f10830454761e2eeedc6debe45c532c83fd69"
   integrity sha1-lI8QgwRUdh4u7txt6+RcUyyD/Wk=
@@ -6945,7 +6696,7 @@ tslib@2.5.0, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/tslib/-/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
   integrity sha1-Qr/thvV4eutB0DGGbI9AJCng/d8=
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.8.1:
   version "1.14.1"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
@@ -7116,15 +6867,14 @@ vary@^1, vary@~1.1.2:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vite@4.2.1:
-  version "4.2.1"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/vite/-/vite-4.2.1.tgz#6c2eb337b0dfd80a9ded5922163b94949d7fc254"
-  integrity sha1-bC6zN7Df2Aqd7VkiFjuUlJ1/wlQ=
+vite@4.3.1:
+  version "4.3.1"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/vite/-/vite-4.3.1.tgz#9badb1377f995632cdcf05f32103414db6fbb95a"
+  integrity sha1-m62xN3+ZVjLNzwXzIQNBTbb7uVo=
   dependencies:
     esbuild "^0.17.5"
     postcss "^8.4.21"
-    resolve "^1.22.1"
-    rollup "^3.18.0"
+    rollup "^3.20.2"
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -7233,22 +6983,22 @@ webpack-subresource-integrity@5.1.0:
   dependencies:
     typed-assert "^1.0.8"
 
-webpack@5.77.0:
-  version "5.77.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack/-/webpack-5.77.0.tgz#dea3ad16d7ea6b84aa55fa42f4eac9f30e7eb9b4"
-  integrity sha1-3qOtFtfqa4SqVfpC9OrJ8w5+ubQ=
+webpack@5.80.0:
+  version "5.80.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/webpack/-/webpack-5.80.0.tgz#3e660b4ab572be38c5e954bdaae7e2bf76010fdc"
+  integrity sha1-PmYLSrVyvjjF6VS9qufiv3YBD9w=
   dependencies:
     "@types/eslint-scope" "^3.7.3"
-    "@types/estree" "^0.0.51"
-    "@webassemblyjs/ast" "1.11.1"
-    "@webassemblyjs/wasm-edit" "1.11.1"
-    "@webassemblyjs/wasm-parser" "1.11.1"
+    "@types/estree" "^1.0.0"
+    "@webassemblyjs/ast" "^1.11.5"
+    "@webassemblyjs/wasm-edit" "^1.11.5"
+    "@webassemblyjs/wasm-parser" "^1.11.5"
     acorn "^8.7.1"
     acorn-import-assertions "^1.7.6"
     browserslist "^4.14.5"
     chrome-trace-event "^1.0.2"
-    enhanced-resolve "^5.10.0"
-    es-module-lexer "^0.9.0"
+    enhanced-resolve "^5.13.0"
+    es-module-lexer "^1.2.1"
     eslint-scope "5.1.1"
     events "^3.2.0"
     glob-to-regexp "^0.4.1"
@@ -7257,9 +7007,9 @@ webpack@5.77.0:
     loader-runner "^4.2.0"
     mime-types "^2.1.27"
     neo-async "^2.6.2"
-    schema-utils "^3.1.0"
+    schema-utils "^3.1.2"
     tapable "^2.1.1"
-    terser-webpack-plugin "^5.1.3"
+    terser-webpack-plugin "^5.3.7"
     watchpack "^2.4.0"
     webpack-sources "^3.2.3"
 
@@ -7411,10 +7161,10 @@ yargs-parser@^21.1.1:
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
   integrity sha1-kJa87r+ZDSG7MfqVFuDt4pSnfTU=
 
-yargs@17.6.2:
-  version "17.6.2"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/yargs/-/yargs-17.6.2.tgz#2e23f2944e976339a1ee00f18c77fedee8332541"
-  integrity sha1-LiPylE6XYzmh7gDxjHf+3ugzJUE=
+yargs@17.7.2, yargs@^17.2.1:
+  version "17.7.2"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/yargs/-/yargs-17.7.2.tgz#991df39aca675a192b816e1e0363f9d75d2aa269"
+  integrity sha1-mR3zmspnWhkrgW4eA2P5110qomk=
   dependencies:
     cliui "^8.0.1"
     escalade "^3.1.1"
@@ -7437,27 +7187,14 @@ yargs@^16.1.1:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yargs@^17.2.1:
-  version "17.7.2"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/yargs/-/yargs-17.7.2.tgz#991df39aca675a192b816e1e0363f9d75d2aa269"
-  integrity sha1-mR3zmspnWhkrgW4eA2P5110qomk=
-  dependencies:
-    cliui "^8.0.1"
-    escalade "^3.1.1"
-    get-caller-file "^2.0.5"
-    require-directory "^2.1.1"
-    string-width "^4.2.3"
-    y18n "^5.0.5"
-    yargs-parser "^21.1.1"
-
 yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=
 
-zone.js@~0.12.0:
-  version "0.12.0"
-  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/zone.js/-/zone.js-0.12.0.tgz#a4a6e5fab6d34bd37d89c77e89ac2e6f4a3d2c30"
-  integrity sha1-pKbl+rbTS9N9icd+iawub0o9LDA=
+zone.js@~0.13.0:
+  version "0.13.0"
+  resolved "https://www.myget.org/F/guide_investimentos/auth/b4a2e19a-67ef-4420-a0ff-892bc508c868/npm/zone.js/-/zone.js-0.13.0.tgz#4c735cb8ef49312b58c0ad13451996dc2b202a6d"
+  integrity sha1-THNcuO9JMStYwK0TRRmW3CsgKm0=
   dependencies:
     tslib "^2.3.0"
