@@ -1,0 +1,97 @@
+@import '../../../../ui/token/mixin/flex';
+@import '../../../../ui/token/variables/fontSize';
+form {
+    height: fit-content;
+    @include d-flex;
+    flex-direction: column;
+    .form-wrapper-content {
+        margin: 2rem 0;
+    }
+}
+.form-wrapper-content {
+    @include d-flex;
+    flex-direction: column;
+    color: var(--palette-text-primary);
+    font-size: var(--text-sm);
+    .input-wrapper {
+        @include d-flex;
+        height: 6rem;
+    }
+    .input-pre-sufix {
+        color: var(--palette-text-primary);
+        border:  .5px var(--palette-text-primary) solid;
+        border-radius: var(--theme-borderRadius-sm) 0 0 var(--theme-borderRadius-sm);
+        padding: 0 1.6em;
+        align-items: center;
+        font-size: var(--text-sm);
+        @include d-flex-vh;
+    }
+    label {
+        margin-bottom: 0.5rem;
+    }
+    input {
+        border: .1px var(--palette-text-primary) solid;
+        border-radius: 0 var(--theme-borderRadius-sm) var(--theme-borderRadius-sm) 0;
+        padding: 0;
+        background-color: transparent;
+        width: 100%;
+        color: var(--palette-text-primary);
+        padding-left: 1rem;
+        
+        &:focus {
+            outline: none;
+        }
+    }
+    &:nth-child(-n+2) {
+        input {
+            border-left: 0;
+        }
+    }
+    &:nth-child(n+3) {
+        .input-wrapper {
+            flex-direction: row-reverse;
+        }
+        .input-pre-sufix {
+            width: 35%;
+            border-radius:  0 var(--theme-borderRadius-sm) var(--theme-borderRadius-sm) 0;
+        }
+        input {
+            border-radius: var(--theme-borderRadius-sm) 0 0 var(--theme-borderRadius-sm);
+            border-right: 0;
+        }
+    }
+}
+
+
+
+::placeholder { 
+    opacity: 0.6; 
+  }
+  
+:-ms-input-placeholder { 
+opacity: 0.6; 
+}
+
+::-ms-input-placeholder { 
+opacity: 0.6; 
+}
+
+// select styling
+
+select {
+    background-color: transparent;
+    color: var(--palette-text-primary);
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    & button {
+        margin: 0.8rem 0;
+    }
+}
+

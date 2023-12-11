@@ -1,0 +1,53 @@
+<form [formGroup]="form">
+    <div class="select">
+        <select name="calculator-type" id="calculator-type" (change)="formFieldChangeHandler($event)" formControlName="calculatorType">
+            <option value="compound-interest">Juros compostos</option>
+        </select>
+    </div>
+    <div class="form-wrapper-content">
+        <label for="value">Valor inicial: </label>
+        <div class="input-wrapper">
+            <div class="input-pre-sufix">
+                R$: 
+            </div>
+            <input formControlName="initialValue"  placeholder="0,00" type="text" mask="separator.2" thousandSeparator="." >
+        </div>
+    </div>
+    <div class="form-wrapper-content">
+        <label for="value">Valor mensal: </label>
+        <div class="input-wrapper">
+            <div class="input-pre-sufix">
+                R$: 
+            </div>
+            <input formControlName="monthlyValue"  placeholder="0,00" type="text" mask="separator.2" thousandSeparator="." >
+        </div>
+    </div>
+    <div class="form-wrapper-content">
+        <label for="value">Taxa de juros: </label>
+        <div class="input-wrapper" formGroupName="interestRate">
+            <div class="input-pre-sufix" >
+                <select name="interest-rate" id="interest-rate" formControlName="type" (change)="formFieldChangeHandler($event)"> 
+                    <option value="month">Mensal</option>
+                    <option value="year">Anual</option>
+                </select>
+            </div>
+            <input formControlName="value"  placeholder="8" type="number">
+        </div>
+    </div>
+    <div class="form-wrapper-content">
+        <label for="period">Periodo em: </label>
+        <div class="input-wrapper" formGroupName="period">
+            <div class="input-pre-sufix">
+                <select name="period" id="period" formControlName="type" (change)="formFieldChangeHandler($event)">
+                    <option value="month">Meses</option>
+                    <option value="year">Anos</option>
+                </select>
+            </div>
+            <input formControlName="value"  placeholder="10" type="number">
+        </div>
+    </div>
+</form>
+<footer>
+    <button class="btn primary-button" (click)="onSubmit()">Calcular</button>
+    <button class="btn disabled-button" (click)="form.reset()">Limpar</button>
+</footer>

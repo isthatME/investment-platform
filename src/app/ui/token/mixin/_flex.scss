@@ -24,4 +24,7 @@
   align-items: center;
   justify-content: center;
 }
-
+@mixin d-flex-self-e {
+  display: flex;
+  align-self: flex-end;
+}
