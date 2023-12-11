@@ -1,8 +1,7 @@
 <form [formGroup]="form">
     <div class="select">
-        <select name="calculator-type" id="calculator-type" (change)="changeCalculatorType($event)" formControlName="calculatorType">
+        <select name="calculator-type" id="calculator-type" (change)="formFieldChangeHandler($event)" formControlName="calculatorType">
             <option value="compound-interest">Juros compostos</option>
-            <option value="simple-interest">Juros simples</option>
         </select>
     </div>
     <div class="form-wrapper-content">
@@ -27,7 +26,7 @@
         <label for="value">Taxa de juros: </label>
         <div class="input-wrapper" formGroupName="interestRate">
             <div class="input-pre-sufix" >
-                <select name="interest-rate" id="interest-rate" formControlName="type">
+                <select name="interest-rate" id="interest-rate" formControlName="type" (change)="formFieldChangeHandler($event)"> 
                     <option value="month">Mensal</option>
                     <option value="year">Anual</option>
                 </select>
@@ -39,7 +38,7 @@
         <label for="period">Periodo em: </label>
         <div class="input-wrapper" formGroupName="period">
             <div class="input-pre-sufix">
-                <select name="period" id="period" formControlName="type">
+                <select name="period" id="period" formControlName="type" (change)="formFieldChangeHandler($event)">
                     <option value="month">Meses</option>
                     <option value="year">Anos</option>
                 </select>
